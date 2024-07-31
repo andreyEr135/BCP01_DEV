@@ -1,0 +1,74 @@
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-lvds1-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-lvds1-overlay.dts"
+# 18 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-lvds1-overlay.dts"
+/dts-v1/;
+/plugin/;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/imx8qm-clock.h" 1
+# 22 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-lvds1-overlay.dts" 2
+
+/ {
+        compatible = "fsl,imx8qm-mek","fsl,seco-imx8qm-c26", "fsl,imx8qm";
+# 33 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-lvds1-overlay.dts"
+ fragment@0 {
+                target = <&ldb1_phy>;
+                __overlay__ {
+   status = "okay";
+         };
+        };
+
+ fragment@1 {
+                target = <&ldb1>;
+                __overlay__ {
+                        status = "okay";
+   fsl,dual-channel;
+
+   lvds-channel@1 {
+    status = "disabled";
+       };
+
+   lvds-channel@0 {
+    fsl,data-mapping = "spwg";
+    fsl,data-width = <24>;
+    status = "okay";
+
+    port@1 {
+     lvds1_out: endpoint {
+      remote-endpoint = <&panel_lvds1_in>;
+     };
+    };
+   };
+                };
+        };
+
+ fragment@2 {
+                target = <&i2c0_lvds0>;
+                __overlay__ {
+   status = "okay";
+                };
+        };
+
+ fragment@3 {
+                target = <&i2c1_lvds0>;
+                __overlay__ {
+                        status = "okay";
+                };
+        };
+
+ fragment@4 {
+  target = <&panel_lvds1>;
+   __overlay__ {
+   status = "okay";
+   compatible = "auo,p215hvn01";
+   backlight = <&lvds_backlight0>;
+
+   port {
+    panel_lvds1_in: endpoint {
+     remote-endpoint = <&lvds1_out>;
+    };
+   };
+  };
+ };
+};

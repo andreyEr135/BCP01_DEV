@@ -1,0 +1,12 @@
+!<thin>
+//                                              82        `
+pcie-designware.o/
+pcie-designware-host.o/
+pci-imx6.o/
+pcie-kirin.o/
+pcie-hisi.o/
+/0              0           0     0     644     6456      `
+/19             0           0     0     644     12448     `
+/43             0           0     0     644     39960     `
+/55             0           0     0     644     9912      `
+/69             0           0     0     644     9536      `

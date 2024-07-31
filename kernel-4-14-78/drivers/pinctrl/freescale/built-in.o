@@ -1,0 +1,14 @@
+!<thin>
+//                                              102       `
+pinctrl-imx.o/
+pinctrl-memmap.o/
+pinctrl-scu.o/
+pinctrl-imx8qm.o/
+pinctrl-imx8mq.o/
+pinctrl-imx8mm.o/
+/0              0           0     0     644     12544     `
+/15             0           0     0     644     3304      `
+/33             0           0     0     644     2224      `
+/48             0           0     0     644     22720     `
+/66             0           0     0     644     14784     `
+/84             0           0     0     644     14712     `

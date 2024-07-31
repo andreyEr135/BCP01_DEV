@@ -1,0 +1,31 @@
+!<thin>
+//                                              202       `
+clk.o/
+clk-imx8qm.o/
+clk-imx8.o/
+clk-divider-scu.o/
+clk-gate-scu.o/
+clk-mux-scu.o/
+clk-imx8mq.o/
+clk-frac-pll.o/
+clk-sccg-pll.o/
+clk-gate2.o/
+clk-composite-8m.o/
+clk-imx8mm.o/
+clk-intpll.o/
+clk-cpu.o/
+
+/0              0           0     0     644     5128      `
+/7              0           0     0     644     113808    `
+/21             0           0     0     644     2640      `
+/33             0           0     0     644     4376      `
+/52             0           0     0     644     8904      `
+/68             0           0     0     644     7544      `
+/83             0           0     0     644     66576     `
+/97             0           0     0     644     5040      `
+/113            0           0     0     644     4896      `
+/129            0           0     0     644     4952      `
+/142            0           0     0     644     4984      `
+/162            0           0     0     644     141120    `
+/176            0           0     0     644     8200      `
+/190            0           0     0     644     3536      `

@@ -1,0 +1,15 @@
+kernel/drivers/mmc/host/armmmci.ko
+kernel/drivers/mmc/host/sdhci.ko
+kernel/drivers/mmc/host/mmc_spi.ko
+kernel/drivers/mmc/host/of_mmc_spi.ko
+kernel/drivers/mmc/host/dw_mmc.ko
+kernel/drivers/mmc/host/dw_mmc-pltfm.ko
+kernel/drivers/mmc/host/dw_mmc-exynos.ko
+kernel/drivers/mmc/host/dw_mmc-k3.ko
+kernel/drivers/mmc/host/sdhci-pltfm.ko
+kernel/drivers/mmc/host/sdhci-cadence.ko
+kernel/drivers/mmc/host/sdhci-esdhc-imx.ko
+kernel/drivers/mmc/host/sdhci-of-arasan.ko
+kernel/drivers/mmc/host/sdhci-of-esdhc.ko
+kernel/drivers/mmc/host/cqhci.ko
+kernel/drivers/mmc/host/sdhci-xenon-driver.ko

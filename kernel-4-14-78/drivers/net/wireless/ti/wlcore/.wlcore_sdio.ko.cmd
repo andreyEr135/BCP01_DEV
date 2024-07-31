@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wlcore/wlcore_sdio.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/ti/wlcore/wlcore_sdio.ko drivers/net/wireless/ti/wlcore/wlcore_sdio.o drivers/net/wireless/ti/wlcore/wlcore_sdio.mod.o ;  true

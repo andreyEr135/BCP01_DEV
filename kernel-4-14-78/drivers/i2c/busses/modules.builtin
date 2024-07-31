@@ -1,0 +1,7 @@
+kernel/drivers/i2c/busses/i2c-designware-core.ko
+kernel/drivers/i2c/busses/i2c-designware-platform.ko
+kernel/drivers/i2c/busses/i2c-imx.ko
+kernel/drivers/i2c/busses/i2c-imx-lpi2c.ko
+kernel/drivers/i2c/busses/i2c-rk3x.ko
+kernel/drivers/i2c/busses/i2c-cros-ec-tunnel.ko
+kernel/drivers/i2c/busses/xen-i2cfront.ko

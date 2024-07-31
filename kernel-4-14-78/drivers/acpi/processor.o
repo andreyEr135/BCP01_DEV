@@ -1,0 +1,9 @@
+!<thin>
+//                                              60        `
+processor_driver.o/
+processor_idle.o/
+processor_perflib.o/
+
+/0              0           0     0     644     7536      `
+/20             0           0     0     644     12184     `
+/38             0           0     0     644     15960     `

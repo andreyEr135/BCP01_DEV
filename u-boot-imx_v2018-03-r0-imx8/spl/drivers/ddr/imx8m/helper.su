@@ -1,0 +1,3 @@
+helper.c:28:6:ddr_load_train_firmware	64	static
+helper.c:105:6:ddrphy_trained_csr_save	0	static
+helper.c:121:6:dram_config_save	0	static

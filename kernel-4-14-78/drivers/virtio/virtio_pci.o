@@ -1,0 +1,9 @@
+!<thin>
+//                                              64        `
+virtio_pci_modern.o/
+virtio_pci_common.o/
+virtio_pci_legacy.o/
+
+/0              0           0     0     644     12768     `
+/21             0           0     0     644     12384     `
+/42             0           0     0     644     6952      `

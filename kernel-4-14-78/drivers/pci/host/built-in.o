@@ -1,0 +1,14 @@
+!<thin>
+//                                              108       `
+pci-host-common.o/
+pci-host-generic.o/
+pci-xgene-msi.o/
+pci-thunder-ecam.o/
+pci-thunder-pem.o/
+pci-xgene.o/
+/0              0           0     0     644     4880      `
+/19             0           0     0     644     3816      `
+/39            /0           0     0     644     11864     `
+/56             0           0     0     644     4808      `
+/76             0           0     0     644     4736      `
+/95             0           0     0     644     10880     `

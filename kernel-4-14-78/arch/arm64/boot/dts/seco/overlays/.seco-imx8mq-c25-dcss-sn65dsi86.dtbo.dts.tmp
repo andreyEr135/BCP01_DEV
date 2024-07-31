@@ -1,0 +1,139 @@
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dcss-sn65dsi86-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dcss-sn65dsi86-overlay.dts"
+# 15 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dcss-sn65dsi86-overlay.dts"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/imx8mq-clock.h" 1
+# 16 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dcss-sn65dsi86-overlay.dts" 2
+
+/dts-v1/;
+/plugin/;
+
+/ {
+        compatible = "fsl,imx8mq-evk","fsl,seco-imx8mq-c25", "fsl,imx8mq";
+
+
+
+
+
+
+
+        fragment@1 {
+                target = <&hdmi>;
+                __overlay__ {
+   status = "disabled";
+   };
+ };
+
+ fragment@2 {
+                target = <&dcss>;
+                __overlay__ {
+                        status = "okay";
+   disp-dev = "mipi_disp";
+   max-res = <1920>,<1080>;
+   bits-per-pixel = <32>;
+   bus-width = <24>;
+
+        clocks = <&clk 270>,
+                 <&clk 269>,
+                 <&clk 271>,
+                 <&clk 126>,
+                 <&clk 0>,
+                 <&clk 121>;
+        clock-names = "apb", "axi", "rtrm", "pix_div", "pix_out", "dtrc";
+        assigned-clocks = <&clk 126>,
+                          <&clk 107>,
+                          <&clk 109>;
+        assigned-clock-parents = <&clk 37>,
+                                 <&clk 78>,
+                                 <&clk 78>;
+        assigned-clock-rates = <594000000>,
+                               <800000000>,
+                               <400000000>,
+                               <400000000>;
+
+   port@0 {
+     dcss_disp0_mipi_dsi: mipi-dsi-endpoint {
+      remote-endpoint = <&mipi_dsi_in>;
+     };
+   };
+  };
+ };
+
+ fragment@6 {
+                target = <&panel>;
+                __overlay__ {
+                        status = "okay";
+   #address-cells = <1>;
+                        #size-cells = <0>;
+   port@0 {
+    reg = <0>;
+                        panel_in: endpoint {
+     remote-endpoint = <&sn65dsi86_out>;
+                        };
+   };
+
+                 };
+        };
+
+ fragment@7 {
+                target = <&edp_bridge>;
+                __overlay__ {
+                        compatible = "ti,sn65dsi86";
+   adi,dsi-lanes = <4>;
+                 #address-cells = <1>;
+                 #size-cells = <0>;
+
+   status = "okay";
+
+   port@0 {
+    reg = <0>;
+    sn65dsi86_in: endpoint {
+     remote-endpoint = <&mipi_dsi_bridge_adv>;
+    };
+   };
+
+   port@1 {
+    reg = <1>;
+    sn65dsi86_out: endpoint {
+     remote-endpoint = <&panel_in>;
+    };
+   };
+
+  };
+ };
+
+ fragment@8 {
+                target = <&mipi_dsi_phy>;
+                __overlay__ {
+                        status = "okay";
+                 };
+        };
+
+ fragment@9 {
+                target = <&mipi_dsi>;
+                __overlay__ {
+   status = "okay";
+   pwr-delay = <10>;
+
+   port@1 {
+    mipi_dsi_in: endpoint {
+     remote-endpoint = <&dcss_disp0_mipi_dsi>;
+    };
+   };
+  };
+ };
+
+ fragment@10 {
+                target = <&mipi_dsi_bridge>;
+                __overlay__ {
+                        status = "okay";
+   port@1 {
+    mipi_dsi_bridge_adv: endpoint {
+     remote-endpoint = <&sn65dsi86_in>;
+    };
+   };
+  };
+        };
+
+};

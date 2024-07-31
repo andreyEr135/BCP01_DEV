@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/sn65dsi84/built-in.o :=  rm -f drivers/gpu/drm/bridge/sn65dsi84/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/gpu/drm/bridge/sn65dsi84/built-in.o drivers/gpu/drm/bridge/sn65dsi84/sn65dsi84.o 

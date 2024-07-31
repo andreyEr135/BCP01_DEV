@@ -1,0 +1,19 @@
+!<thin>
+//                                              126       `
+hid-core.o/
+hid-input.o/
+hid-debug.o/
+hid-generic.o/
+hid-a4tech.o/
+hid-multitouch.o/
+usbhid/hid-core.o/
+usbhid/hid-quirks.o/
+
+/0              0           0     0     644     50328     `
+/12             0           0     0     644     32976     `
+/25             0           0     0     644     64048     `
+/38             0           0     0     644     3112      `
+/53             0           0     0     644     4512      `
+/67             0           0     0     644     18480     `
+/85             0           0     0     644     32152     `
+/104            0           0     0     644     5928      `

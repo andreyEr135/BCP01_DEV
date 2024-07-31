@@ -1,0 +1,1 @@
+cmd_spl/board/seco/common/built-in.o :=  aarch64-linux-gnu-ld.bfd     -r -o spl/board/seco/common/built-in.o spl/board/seco/common/pfuze.o spl/board/seco/common/c12_ram_setup.o spl/board/seco/common/mmc.o 

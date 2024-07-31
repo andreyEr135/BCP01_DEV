@@ -1,0 +1,17 @@
+soc.c:160:12:get_cpu_variant_type	0	static
+soc.c:367:12:disable_fdt_nodes	96	static
+soc.c:38:5:timer_init	0	static
+soc.c:57:6:enable_tzc380	0	static
+soc.c:76:6:set_wdog_reset	0	static
+soc.c:149:6:enable_caches	16	static
+soc.c:197:5:get_cpu_rev	16	static
+soc.c:250:5:arch_cpu_init	16	static
+soc.c:301:6:is_usb_boot	16	static
+soc.c:306:6:get_board_serial	0	static
+soc.c:467:6:board_quiesce_devices	16	static
+soc.c:533:5:ft_system_setup	144	static
+soc.c:621:6:reset_cpu	0	static
+soc.c:654:5:arch_misc_init	32	static
+soc.c:674:6:imx_gpc_set_m_core_pgc	0	static
+soc.c:687:6:imx8m_usb_power_domain	16	static
+soc.c:703:5:imx8m_usb_power	16	static

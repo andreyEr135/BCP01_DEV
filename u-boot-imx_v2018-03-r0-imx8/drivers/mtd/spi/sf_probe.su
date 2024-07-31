@@ -1,0 +1,2 @@
+sf_probe.c:58:19:spi_flash_probe	48	static
+sf_probe.c:85:6:spi_flash_free	32	static

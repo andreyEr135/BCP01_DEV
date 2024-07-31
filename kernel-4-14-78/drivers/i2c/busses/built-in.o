@@ -1,0 +1,18 @@
+!<thin>
+//                                              154       `
+i2c-designware-common.o/
+i2c-designware-master.o/
+i2c-designware-platdrv.o/
+i2c-imx.o/
+i2c-imx-lpi2c.o/
+i2c-rk3x.o/
+i2c-cros-ec-tunnel.o/
+xen-i2cfront.o/
+/0              0           0     0     644     6560      `
+/25             0           0     0     644     9424      `
+/50             0           0     0     644     10616     `
+/76             0           0     0     644     21448     `
+/87            /0           0     0     644     12576     `
+/104            0           0     0     644     18256     `
+/116            0           0     0     644     6248      `
+/138            0           0     0     644     11304     `

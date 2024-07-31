@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_CHECKSUM.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_CHECKSUM.ko net/netfilter/xt_CHECKSUM.o net/netfilter/xt_CHECKSUM.mod.o ;  true

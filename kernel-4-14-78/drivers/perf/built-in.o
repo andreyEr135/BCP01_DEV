@@ -1,0 +1,11 @@
+!<thin>
+//                                              60        `
+arm_pmu.o/
+arm_pmu_platform.o/
+arm_pmu_acpi.o/
+ddr-perf.o/
+
+/0              0           0     0     644     15104     `
+/11             0           0     0     644     6536      `
+/31             0           0     0     644     6552      `
+/47             0           0     0     644     16944     `

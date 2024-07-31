@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/built-in.o :=  rm -f drivers/mtd/nand/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/mtd/nand/built-in.o drivers/mtd/nand/nand.o drivers/mtd/nand/nand_ecc.o drivers/mtd/nand/denali.o drivers/mtd/nand/denali_dt.o drivers/mtd/nand/gpmi-nand/built-in.o 

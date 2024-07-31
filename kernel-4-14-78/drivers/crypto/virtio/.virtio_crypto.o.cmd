@@ -1,0 +1,1 @@
+cmd_drivers/crypto/virtio/virtio_crypto.o := aarch64-poky-linux-ld -EL  -maarch64linux   -r -o drivers/crypto/virtio/virtio_crypto.o drivers/crypto/virtio/virtio_crypto_algs.o drivers/crypto/virtio/virtio_crypto_mgr.o drivers/crypto/virtio/virtio_crypto_core.o 

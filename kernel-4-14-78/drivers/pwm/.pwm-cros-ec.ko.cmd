@@ -1,0 +1,1 @@
+cmd_drivers/pwm/pwm-cros-ec.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/pwm/pwm-cros-ec.ko drivers/pwm/pwm-cros-ec.o drivers/pwm/pwm-cros-ec.mod.o ;  true

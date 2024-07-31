@@ -1,0 +1,1 @@
+cmd_drivers/spi/built-in.o :=  rm -f drivers/spi/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/spi/built-in.o drivers/spi/spi.o drivers/spi/spi-bitbang.o drivers/spi/spi-fsl-lpspi.o drivers/spi/spi-imx.o 

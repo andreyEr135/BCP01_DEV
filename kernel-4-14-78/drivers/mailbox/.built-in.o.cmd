@@ -1,0 +1,1 @@
+cmd_drivers/mailbox/built-in.o :=  rm -f drivers/mailbox/built-in.o; aarch64-poky-linux-ar rcSTPD drivers/mailbox/built-in.o drivers/mailbox/mailbox.o drivers/mailbox/arm_mhu.o drivers/mailbox/platform_mhu.o drivers/mailbox/pcc.o drivers/mailbox/bcm-flexrm-mailbox.o 

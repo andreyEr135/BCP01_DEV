@@ -1,0 +1,2 @@
+mac.c:27:6:imx_get_mac_from_fuse	48	static
+mac.c:63:6:imx_set_mac_to_fuse	48	static

@@ -1,0 +1,10 @@
+kernel/drivers/mxc/hdp/API_Audio.ko
+kernel/drivers/mxc/hdp/API_AFE.ko
+kernel/drivers/mxc/hdp/API_General.ko
+kernel/drivers/mxc/hdp/API_HDCP.ko
+kernel/drivers/mxc/hdp/API_HDMITX.ko
+kernel/drivers/mxc/hdp/API_Infoframe.ko
+kernel/drivers/mxc/hdp/API_DPTX.ko
+kernel/drivers/mxc/hdp/util.ko
+kernel/drivers/mxc/hdp/API_HDMIRX.ko
+kernel/drivers/mxc/hdp/API_HDMI_RX_Audio.ko

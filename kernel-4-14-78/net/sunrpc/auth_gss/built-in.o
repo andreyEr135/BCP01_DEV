@@ -1,0 +1,29 @@
+!<thin>
+//                                              226       `
+auth_gss.o/
+gss_generic_token.o/
+gss_mech_switch.o/
+svcauth_gss.o/
+gss_rpc_upcall.o/
+gss_rpc_xdr.o/
+gss_krb5_mech.o/
+gss_krb5_seal.o/
+gss_krb5_unseal.o/
+gss_krb5_seqnum.o/
+gss_krb5_wrap.o/
+gss_krb5_crypto.o/
+gss_krb5_keys.o/
+
+/0              0           0     0     644     29944     `
+/12             0           0     0     644     3280      `
+/33             0           0     0     644     9344      `
+/52             0           0     0     644     25816     `
+/67             0           0     0     644     7272      `
+/85             0           0     0     644     6960      `
+/100           /0           0     0     644     11192     `
+/117           /0           0     0     644     3088      `
+/134            0           0     0     644     2552      `
+/153            0           0     0     644     2208      `
+/172           /0           0     0     644     7616      `
+/189            0           0     0     644     12920     `
+/208           /0           0     0     644     3392      `

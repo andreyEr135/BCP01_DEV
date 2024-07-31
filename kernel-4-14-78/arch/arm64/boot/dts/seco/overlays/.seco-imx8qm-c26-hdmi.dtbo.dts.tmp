@@ -1,0 +1,113 @@
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-hdmi-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-hdmi-overlay.dts"
+# 18 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-hdmi-overlay.dts"
+/dts-v1/;
+/plugin/;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/imx8qm-clock.h" 1
+# 22 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-hdmi-overlay.dts" 2
+
+/ {
+        compatible = "fsl,imx8qm-mek","fsl,seco-imx8qm-c26", "fsl,imx8qm";
+# 33 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c26-hdmi-overlay.dts"
+ fragment@0 {
+                target = <&sound_amixtx>;
+                __overlay__ {
+    compatible = "fsl,imx-audio-cdnhdmi";
+    model = "imx-audio-hdmi-tx";
+    audio-cpu = <&sai_hdmi_tx>;
+    protocol = <1>;
+    hdmi-out;
+          };
+        };
+
+ fragment@1 {
+                target = <&sound_amixsai>;
+                __overlay__ {
+                        status = "disabled";
+                };
+        };
+
+ fragment@2 {
+                target = <&sound_hdmiarc>;
+                __overlay__ {
+   compatible = "fsl,imx-audio-spdif";
+   model = "imx-hdmi-arc";
+   spdif-controller = <&spdif1>;
+   spdif-in;
+   spdif-out;
+                };
+        };
+
+ fragment@3 {
+                target = <&ldb1_phy>;
+                __overlay__ {
+                        status = "disabled";
+                };
+        };
+
+ fragment@4 {
+                target = <&ldb1>;
+                __overlay__ {
+                        status = "disabled";
+                };
+        };
+
+ fragment@5 {
+                target = <&i2c1_lvds0>;
+                __overlay__ {
+                        status = "disabled";
+                };
+        };
+
+ fragment@6 {
+                target = <&irqsteer_hdmi>;
+                __overlay__ {
+                        status = "okay";
+                };
+        };
+
+ fragment@7 {
+                target = <&hdmi>;
+                __overlay__ {
+   compatible = "fsl,imx8qm-hdmi";
+   assigned-clocks = <&clk 780>,
+       <&clk 781>,
+       <&clk 782>;
+   assigned-clock-parents = <&clk 375>,
+         <&clk 375>,
+         <&clk 375>;
+   fsl,cec;
+   status = "okay";
+                };
+        };
+
+ fragment@8 {
+                target = <&sai_hdmi_tx>;
+                __overlay__ {
+
+   assigned-clocks =<&clk 652>,
+     <&clk 172>,
+     <&clk 232>,
+     <&clk 236>,
+     <&clk 210>;
+   assigned-clock-parents = <&clk 233>;
+   assigned-clock-rates = <0>, <786432000>, <49152000>, <12288000>, <49152000>;
+   fsl,sai-asynchronous;
+   status = "okay";
+                };
+        };
+
+ fragment@9 {
+                target = <&spdif1>;
+                __overlay__ {
+   assigned-clocks =<&clk 172>,
+     <&clk 232>,
+     <&clk 236>;
+   assigned-clock-rates = <786432000>, <49152000>, <12288000>;
+   status = "okay";
+                };
+        };
+};

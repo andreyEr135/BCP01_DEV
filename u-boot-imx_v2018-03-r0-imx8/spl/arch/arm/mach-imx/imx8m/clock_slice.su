@@ -1,0 +1,9 @@
+clock_slice.c:942:12:select	0	static
+clock_slice.c:957:22:get_clk_root_target	0	static
+clock_slice.c:996:5:clock_get_target_val	16	static
+clock_slice.c:1019:5:clock_set_target_val	16	static
+clock_slice.c:1042:5:clock_root_enabled	16	static
+clock_slice.c:1079:5:clock_enable	0	static
+clock_slice.c:1096:5:clock_get_prediv	16	static
+clock_slice.c:1133:5:clock_get_postdiv	16	static
+clock_slice.c:1176:5:clock_get_src	16	static

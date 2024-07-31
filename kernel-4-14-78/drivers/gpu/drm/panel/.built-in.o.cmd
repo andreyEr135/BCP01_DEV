@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/built-in.o :=  rm -f drivers/gpu/drm/panel/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/gpu/drm/panel/built-in.o drivers/gpu/drm/panel/panel-simple.o drivers/gpu/drm/panel/panel-seiko-43wvf1g.o drivers/gpu/drm/panel/panel-raydium-rm67191.o 

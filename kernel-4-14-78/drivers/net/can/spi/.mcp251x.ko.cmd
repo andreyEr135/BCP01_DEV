@@ -1,0 +1,1 @@
+cmd_drivers/net/can/spi/mcp251x.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/can/spi/mcp251x.ko drivers/net/can/spi/mcp251x.o drivers/net/can/spi/mcp251x.mod.o ;  true

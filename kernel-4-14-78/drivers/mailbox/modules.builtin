@@ -1,0 +1,3 @@
+kernel/drivers/mailbox/arm_mhu.ko
+kernel/drivers/mailbox/platform_mhu.ko
+kernel/drivers/mailbox/bcm-flexrm-mailbox.ko

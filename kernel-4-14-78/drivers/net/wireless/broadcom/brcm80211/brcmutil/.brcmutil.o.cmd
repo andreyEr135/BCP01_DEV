@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.o := aarch64-poky-linux-ld -EL  -maarch64linux   -r -o drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.o drivers/net/wireless/broadcom/brcm80211/brcmutil/utils.o drivers/net/wireless/broadcom/brcm80211/brcmutil/d11.o 

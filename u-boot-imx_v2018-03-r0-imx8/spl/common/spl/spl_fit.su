@@ -1,0 +1,6 @@
+spl_fit.c:105:12:spl_fit_get_image_node	80	static
+spl_fit.c:191:12:spl_load_fit_image	112	static
+spl_fit.c:18:13:board_spl_fit_post_load	0	static
+spl_fit.c:23:14:board_spl_fit_size_align	0	static
+spl_fit.c:28:14:board_spl_fit_buffer_addr	0	static
+spl_fit.c:370:5:spl_load_simple_fit	160	static

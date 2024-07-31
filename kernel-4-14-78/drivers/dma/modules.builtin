@@ -1,0 +1,5 @@
+kernel/drivers/dma/virt-dma.ko
+kernel/drivers/dma/fsl-edma-v3.ko
+kernel/drivers/dma/pl330.ko
+kernel/drivers/dma/qcom/hdma_mgmt.ko
+kernel/drivers/dma/qcom/hdma.ko

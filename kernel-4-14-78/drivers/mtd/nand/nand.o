@@ -1,0 +1,23 @@
+!<thin>
+//                                              144       `
+nand_base.o/
+nand_bbt.o/
+nand_timings.o/
+nand_ids.o/
+nand_amd.o/
+nand_hynix.o/
+nand_macronix.o/
+nand_micron.o/
+nand_samsung.o/
+nand_toshiba.o/
+
+/0              0           0     0     644     56368     `
+/13             0           0     0     644     13592     `
+/25             0           0     0     644     4248      `
+/41             0           0     0     644     10520     `
+/53             0           0     0     644     2336      `
+/65             0           0     0     644     6544      `
+/79            /0           0     0     644     2128      `
+/96             0           0     0     644     4008      `
+/111            0           0     0     644     3112      `
+/127            0           0     0     644     2568      `

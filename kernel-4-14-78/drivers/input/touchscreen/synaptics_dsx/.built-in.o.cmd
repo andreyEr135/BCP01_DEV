@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/synaptics_dsx/built-in.o :=  rm -f drivers/input/touchscreen/synaptics_dsx/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/input/touchscreen/synaptics_dsx/built-in.o drivers/input/touchscreen/synaptics_dsx/synaptics_dsx_i2c.o 

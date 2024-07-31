@@ -1,0 +1,47 @@
+!<thin>
+//                                              368       `
+cpu_hotplug.o/
+grant-table.o/
+features.o/
+balloon.o/
+manage.o/
+preempt.o/
+time.o/
+events/events_base.o/
+events/events_2l.o/
+events/events_fifo.o/
+xenbus/xenbus_client.o/
+xenbus/xenbus_comms.o/
+xenbus/xenbus_xs.o/
+xenbus/xenbus_probe.o/
+xenbus/xenbus_dev_frontend.o/
+xenbus/xenbus_probe_frontend.o/
+arm-device.o/
+pci.o/
+dbgp.o/
+biomerge.o/
+swiotlb-xen.o/
+xlate_mmu.o/
+
+/0              0           0     0     644     5256      `
+/15             0           0     0     644     34296     `
+/30             0           0     0     644     1968      `
+/42             0           0     0     644     9984      `
+/53             0           0     0     644     8672      `
+/63             0           0     0     644     944       `
+/74             0           0     0     644     4088      `
+/82             0           0     0     644     42000     `
+/104            0           0     0     644     11832     `
+/124            0           0     0     644     11016     `
+/146           /0           0     0     644     20008     `
+/170            0           0     0     644     9320      `
+/193            0           0     0     644     25216     `
+/213            0           0     0     644     25384     `
+/236            0           0     0     644     11544     `
+/266            0           0     0     644     14968     `
+/298            0           0     0     644     4864      `
+/312            0           0     0     644     4104      `
+/319            0           0     0     644     2592      `
+/327            0           0     0     644     2112      `
+/339            0           0     0     644     13440     `
+/354            0           0     0     644     6912      `

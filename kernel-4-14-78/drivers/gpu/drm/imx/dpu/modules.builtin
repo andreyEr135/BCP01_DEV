@@ -1,0 +1,2 @@
+kernel/drivers/gpu/drm/imx/dpu/imx-dpu-crtc.ko
+kernel/drivers/gpu/drm/imx/dpu/imx-dpu-render.ko

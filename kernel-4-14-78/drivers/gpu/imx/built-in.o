@@ -1,0 +1,68 @@
+!<thin>
+//                                              620       `
+imx8_pc.o/
+imx8_prg.o/
+imx8_dprc.o/
+dpu/dpu-common.o/
+dpu/dpu-constframe.o/
+dpu/dpu-disengcfg.o/
+dpu/dpu-extdst.o/
+dpu/dpu-fetchdecode.o/
+dpu/dpu-fetcheco.o/
+dpu/dpu-fetchlayer.o/
+dpu/dpu-fetchwarp.o/
+dpu/dpu-fetchunit.o/
+dpu/dpu-framegen.o/
+dpu/dpu-hscaler.o/
+dpu/dpu-layerblend.o/
+dpu/dpu-store.o/
+dpu/dpu-tcon.o/
+dpu/dpu-vscaler.o/
+dpu-blit/dpu-blit.o/
+dcss/dcss-common.o/
+dcss/dcss-blkctl.o/
+dcss/dcss-ctxld.o/
+dcss/dcss-dpr.o/
+dcss/dcss-dtg.o/
+dcss/dcss-ss.o/
+dcss/dcss-hdr10.o/
+dcss/dcss-scaler.o/
+dcss/dcss-dtrc.o/
+dcss/dcss-dec400d.o/
+dcss/dcss-wrscl.o/
+dcss/dcss-rdsrc.o/
+dcss/dcss-pll.o/
+lcdif/lcdif-common.o/
+/0              0           0     0     644     8416      `
+/11             0           0     0     644     13824     `
+/23             0           0     0     644     20608     `
+/36             0           0     0     644     43792     `
+/54             0           0     0     644     9344      `
+/76            /0           0     0     644     4416      `
+/97             0           0     0     644     20904     `
+/115            0           0     0     644     18376     `
+/138            0           0     0     644     12408     `
+/158            0           0     0     644     9368      `
+/180           /0           0     0     644     9232      `
+/201           /0           0     0     644     14856     `
+/222            0           0     0     644     21992     `
+/242            0           0     0     644     12984     `
+/261            0           0     0     644     11024     `
+/283            0           0     0     644     4000      `
+/300            0           0     0     644     10064     `
+/316            0           0     0     644     15368     `
+/335            0           0     0     644     10576     `
+/356            0           0     0     644     22424     `
+/376            0           0     0     644     4008      `
+/396            0           0     0     644     9848      `
+/415            0           0     0     644     11712     `
+/432            0           0     0     644     13544     `
+/449            0           0     0     644     5072      `
+/465            0           0     0     644     54424     `
+/484            0           0     0     644     10104     `
+/504            0           0     0     644     11616     `
+/522            0           0     0     644     6768      `
+/543            0           0     0     644     3800      `
+/562            0           0     0     644     3448      `
+/581            0           0     0     644     4176      `
+/598            0           0     0     644     20544     `

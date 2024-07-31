@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_addrtype.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_addrtype.ko net/netfilter/xt_addrtype.o net/netfilter/xt_addrtype.mod.o ;  true

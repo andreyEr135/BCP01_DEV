@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/vtl/built-in.o :=  rm -f drivers/input/touchscreen/vtl/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/input/touchscreen/vtl/built-in.o drivers/input/touchscreen/vtl/vtl_ts.o 

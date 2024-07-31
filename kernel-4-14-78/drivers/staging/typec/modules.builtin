@@ -1,0 +1,2 @@
+kernel/drivers/staging/typec/tcpm.ko
+kernel/drivers/staging/typec/tcpci.ko

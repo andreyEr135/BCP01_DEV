@@ -1,0 +1,4 @@
+kernel/drivers/power/reset/reboot-mode.ko
+kernel/drivers/power/reset/syscon-reboot-mode.ko
+kernel/drivers/power/supply/bq27xxx_battery.ko
+kernel/drivers/power/supply/bq27xxx_battery_i2c.ko

@@ -1,0 +1,4 @@
+kernel/drivers/net/ethernet/hisilicon/hns_mdio.ko
+kernel/drivers/net/ethernet/hisilicon/hns/hnae.ko
+kernel/drivers/net/ethernet/hisilicon/hns/hns_dsaf.ko
+kernel/drivers/net/ethernet/hisilicon/hns/hns_enet_drv.ko

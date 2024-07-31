@@ -1,0 +1,3 @@
+kernel/drivers/gpu/drm/panel/panel-simple.ko
+kernel/drivers/gpu/drm/panel/panel-seiko-43wvf1g.ko
+kernel/drivers/gpu/drm/panel/panel-raydium-rm67191.ko

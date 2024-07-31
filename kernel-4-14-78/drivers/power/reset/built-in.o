@@ -1,0 +1,15 @@
+!<thin>
+//                                              110       `
+brcmstb-reboot.o/
+vexpress-poweroff.o/
+xgene-reboot.o/
+syscon-reboot.o/
+reboot-mode.o/
+syscon-reboot-mode.o/
+
+/0              0           0     0     644     5776      `
+/18             0           0     0     644     6176      `
+/39             0           0     0     644     4088      `
+/55            /0           0     0     644     4160      `
+/72             0           0     0     644     6032      `
+/87             0           0     0     644     4704      `

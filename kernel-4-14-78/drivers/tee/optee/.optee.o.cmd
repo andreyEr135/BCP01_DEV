@@ -1,0 +1,1 @@
+cmd_drivers/tee/optee/optee.o := rm -f drivers/tee/optee/optee.o; aarch64-linux-gnu-ar rcSTPD drivers/tee/optee/optee.o drivers/tee/optee/core.o drivers/tee/optee/call.o drivers/tee/optee/rpc.o drivers/tee/optee/supp.o

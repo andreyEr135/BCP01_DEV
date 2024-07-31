@@ -1,0 +1,7 @@
+kernel/drivers/gpu/imx/imx8_pc.ko
+kernel/drivers/gpu/imx/imx8_prg.ko
+kernel/drivers/gpu/imx/imx8_dprc.ko
+kernel/drivers/gpu/imx/dcss/imx-dcss-core.ko
+kernel/drivers/gpu/imx/dpu/imx-dpu-core.ko
+kernel/drivers/gpu/imx/dpu-blit/imx-dpu-blit.ko
+kernel/drivers/gpu/imx/lcdif/imx-lcdif-core.ko

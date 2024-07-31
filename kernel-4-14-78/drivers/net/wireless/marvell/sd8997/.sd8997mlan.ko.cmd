@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/sd8997/sd8997mlan.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/marvell/sd8997/sd8997mlan.ko drivers/net/wireless/marvell/sd8997/sd8997mlan.o drivers/net/wireless/marvell/sd8997/sd8997mlan.mod.o ;  true

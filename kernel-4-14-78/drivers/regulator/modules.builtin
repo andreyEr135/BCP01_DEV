@@ -1,0 +1,11 @@
+kernel/drivers/regulator/fixed.ko
+kernel/drivers/regulator/fan53555.ko
+kernel/drivers/regulator/gpio-regulator.ko
+kernel/drivers/regulator/hi6421v530-regulator.ko
+kernel/drivers/regulator/max77620-regulator.ko
+kernel/drivers/regulator/qcom_spmi-regulator.ko
+kernel/drivers/regulator/pfuze100-regulator.ko
+kernel/drivers/regulator/pwm-regulator.ko
+kernel/drivers/regulator/rk808-regulator.ko
+kernel/drivers/regulator/s2mps11.ko
+kernel/drivers/regulator/bd71837-regulator.ko

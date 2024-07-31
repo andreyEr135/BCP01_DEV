@@ -1,0 +1,17 @@
+!<thin>
+//                                              162       `
+hostap/hostap_80211_rx.o/
+hostap/hostap_80211_tx.o/
+hostap/hostap_ap.o/
+hostap/hostap_info.o/
+hostap/hostap_ioctl.o/
+hostap/hostap_main.o/
+hostap/hostap_proc.o/
+
+/0              0           0     0     644     15128     `
+/26             0           0     0     644     8912      `
+/52             0           0     0     644     51640     `
+/72             0           0     0     644     9000      `
+/94             0           0     0     644     40352     `
+/117            0           0     0     644     27352     `
+/139            0           0     0     644     16744     `

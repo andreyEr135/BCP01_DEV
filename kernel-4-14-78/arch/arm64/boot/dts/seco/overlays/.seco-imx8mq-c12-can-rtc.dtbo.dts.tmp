@@ -1,0 +1,25 @@
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-can-rtc-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-can-rtc-overlay.dts"
+# 15 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-can-rtc-overlay.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ compatible = "fsl,imx8mq-evk","fsl,seco-imx8mq-c12", "fsl,imx8mq";
+# 28 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-can-rtc-overlay.dts"
+     fragment@0 {
+         target = <&ecspi1>;
+         __overlay__ {
+
+   rtc: pcf2123@0 {
+    status = "okay";
+   };
+
+   can_spi: mcp258x@1 {
+                                status = "okay";
+                        };
+  };
+ };
+};

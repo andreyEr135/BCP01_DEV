@@ -1,0 +1,24 @@
+!<thin>
+//                                              168       `
+hnae.o/
+hns_ae_adapt.o/
+hns_dsaf_gmac.o/
+hns_dsaf_mac.o/
+hns_dsaf_misc.o/
+hns_dsaf_main.o/
+hns_dsaf_ppe.o/
+hns_dsaf_rcb.o/
+hns_dsaf_xgmac.o/
+hns_enet.o/
+hns_ethtool.o/
+/0              0           0     0     644     12760     `
+/8              0           0     0     644     17312     `
+/24            /0           0     0     644     23392     `
+/41             0           0     0     644     14320     `
+/57            /0           0     0     644     10880     `
+/74            /0           0     0     644     49360     `
+/91             0           0     0     644     13232     `
+/107            0           0     0     644     20856     `
+/123            0           0     0     644     27504     `
+/141            0           0     0     644     38408     `
+/153            0           0     0     644     17208     `

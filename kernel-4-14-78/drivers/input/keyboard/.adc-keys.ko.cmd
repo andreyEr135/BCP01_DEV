@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/adc-keys.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/adc-keys.ko drivers/input/keyboard/adc-keys.o drivers/input/keyboard/adc-keys.mod.o ;  true

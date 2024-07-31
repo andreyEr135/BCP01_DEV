@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/adv7511/built-in.o :=  rm -f drivers/gpu/drm/bridge/adv7511/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/gpu/drm/bridge/adv7511/built-in.o drivers/gpu/drm/bridge/adv7511/adv7511.o 

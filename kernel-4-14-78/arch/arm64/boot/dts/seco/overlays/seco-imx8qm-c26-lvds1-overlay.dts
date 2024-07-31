@@ -1,0 +1,92 @@
+/*
+ * Copyright 2017-2018 NXP
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+/*
+ * LVDS1  - enable ldb1 display.
+ */
+
+/dts-v1/;
+/plugin/;
+
+#include <dt-bindings/clock/imx8qm-clock.h>
+
+/ {
+        compatible = "fsl,imx8qm-mek","fsl,seco-imx8qm-c26", "fsl,imx8qm";
+
+/*  __________________________________________________________________________
+ * |                                                                          |
+ * |                               LVDS1 OVERLAY                              |
+ * |__________________________________________________________________________|
+ */
+
+
+	fragment@0 {
+                target = <&ldb1_phy>;
+                __overlay__ {
+			status = "okay";
+        	};
+        };
+
+	fragment@1 {
+                target = <&ldb1>;
+                __overlay__ {
+                        status = "okay";
+			fsl,dual-channel;
+
+			lvds-channel@1 {
+				status = "disabled";
+		    	};
+		    
+			lvds-channel@0 {
+				fsl,data-mapping = "spwg";
+				fsl,data-width = <24>;
+				status = "okay";
+				
+				port@1 {
+					lvds1_out: endpoint {
+						remote-endpoint = <&panel_lvds1_in>;
+					};
+				};
+			};
+                };
+        };
+
+	fragment@2 {
+                target = <&i2c0_lvds0>;
+                __overlay__ {
+			status = "okay";
+                };
+        };
+
+	fragment@3 {
+                target = <&i2c1_lvds0>;
+                __overlay__ {
+                        status = "okay"; 
+                };
+        };
+		
+	fragment@4 {
+		target = <&panel_lvds1>;
+		 __overlay__ {
+			status = "okay";
+			compatible = "auo,p215hvn01";
+			backlight = <&lvds_backlight0>;
+
+			port {
+				panel_lvds1_in: endpoint {
+					remote-endpoint = <&lvds1_out>;
+				};
+			};
+		};
+	};
+};

@@ -1,0 +1,9 @@
+!<thin>
+//                                              68        `
+of_touchscreen.o/
+vtl/vtl_ts.o/
+synaptics_dsx/synaptics_dsx_i2c.o/
+
+/0              0           0     0     644     4920      `
+/18             0           0     0     644     11016     `
+/32             0           0     0     644     41352     `

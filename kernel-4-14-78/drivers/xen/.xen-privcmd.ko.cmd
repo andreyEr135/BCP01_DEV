@@ -1,0 +1,1 @@
+cmd_drivers/xen/xen-privcmd.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/xen/xen-privcmd.ko drivers/xen/xen-privcmd.o drivers/xen/xen-privcmd.mod.o ;  true

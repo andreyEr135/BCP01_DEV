@@ -1,0 +1,16 @@
+seco_imx8mq_c12.c:314:13:do_enable_hdmi	16	static
+seco_imx8mq_c12.c:66:5:board_qspi_init	16	static
+seco_imx8mq_c12.c:76:5:regulator_enable_init	16	static
+seco_imx8mq_c12.c:93:5:board_postclk_init	0	static
+seco_imx8mq_c12.c:100:5:dram_init	32	static
+seco_imx8mq_c12.c:123:5:dram_init_banksize	32	static
+seco_imx8mq_c12.c:151:5:ft_board_setup	32	static
+seco_imx8mq_c12.c:193:5:board_phy_config	16	static
+seco_imx8mq_c12.c:225:5:usb_gadget_handle_interrupts	16	static
+seco_imx8mq_c12.c:256:5:board_usb_init	32	static
+seco_imx8mq_c12.c:268:5:board_usb_cleanup	32	static
+seco_imx8mq_c12.c:280:5:board_init	16	static
+seco_imx8mq_c12.c:309:5:board_mmc_get_env_dev	0	static
+seco_imx8mq_c12.c:321:5:board_late_init	16	static
+seco_imx8mq_c12.c:393:5:board_early_init_f	16	static
+seco_imx8mq_c12.c:436:13:get_effective_memsize	32	static

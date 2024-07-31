@@ -1,0 +1,14 @@
+kernel/drivers/net/macvlan.ko
+kernel/drivers/net/macvtap.ko
+kernel/drivers/net/tap.ko
+kernel/drivers/net/can/can-dev.ko
+kernel/drivers/net/ethernet/freescale/fec.ko
+kernel/drivers/net/ethernet/intel/igb/igb.ko
+kernel/drivers/net/ipvlan/ipvlan.ko
+kernel/drivers/net/ipvlan/ipvtap.ko
+kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/dp83867.ko
+kernel/drivers/net/phy/fixed_phy.ko
+kernel/drivers/net/phy/micrel.ko
+kernel/drivers/net/phy/tja110x.ko
+kernel/drivers/net/phy/rockchip.ko

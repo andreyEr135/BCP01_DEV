@@ -1,0 +1,1 @@
+cmd_spl/board/seco/seco_imx8mq_c12/built-in.o :=  aarch64-linux-gnu-ld.bfd     -r -o spl/board/seco/seco_imx8mq_c12/built-in.o spl/board/seco/seco_imx8mq_c12/seco_imx8mq_c12.o spl/board/seco/seco_imx8mq_c12/spl.o spl/board/seco/seco_imx8mq_c12/lpddr4_timing.o spl/board/seco/seco_imx8mq_c12/lpddr4_timing_b0.o 

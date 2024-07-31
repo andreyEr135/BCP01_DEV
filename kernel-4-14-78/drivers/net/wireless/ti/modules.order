@@ -1,0 +1,2 @@
+kernel/drivers/net/wireless/ti/wlcore/wlcore_sdio.ko
+kernel/drivers/net/wireless/ti/wl18xx/wl18xx.ko

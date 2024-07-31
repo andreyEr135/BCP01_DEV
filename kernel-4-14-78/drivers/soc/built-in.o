@@ -1,0 +1,29 @@
+!<thin>
+//                                              284       `
+fsl/guts.o/
+imx/mu/mx8_mu.o/
+imx/sc/main/ipc.o/
+imx/sc/svc/misc/rpc_clnt.o/
+imx/sc/svc/pad/rpc_clnt.o/
+imx/sc/svc/pm/rpc_clnt.o/
+imx/sc/svc/rm/rpc_clnt.o/
+imx/sc/svc/timer/rpc_clnt.o/
+imx/sc/svc/irq/rpc_clnt.o/
+imx/pm-domains.o/
+imx/busfreq-imx8mq.o/
+imx/gpc-psci.o/
+imx/soc-imx8.o/
+
+/0              0           0     0     644     11464     `
+/12             0           0     0     644     4064      `
+/29             0           0     0     644     15704     `
+/48             0           0     0     644     5488      `
+/76             0           0     0     644     3656      `
+/103            0           0     0     644     4120      `
+/129            0           0     0     644     5368      `
+/155            0           0     0     644     3584      `
+/184            0           0     0     644     1352      `
+/211            0           0     0     644     18288     `
+/229            0           0     0     644     25128     `
+/251            0           0     0     644     13112     `
+/267            0           0     0     644     14368     `

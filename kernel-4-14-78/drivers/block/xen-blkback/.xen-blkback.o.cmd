@@ -1,0 +1,1 @@
+cmd_drivers/block/xen-blkback/xen-blkback.o := rm -f drivers/block/xen-blkback/xen-blkback.o; aarch64-poky-linux-ar rcSTPD drivers/block/xen-blkback/xen-blkback.o drivers/block/xen-blkback/blkback.o drivers/block/xen-blkback/xenbus.o

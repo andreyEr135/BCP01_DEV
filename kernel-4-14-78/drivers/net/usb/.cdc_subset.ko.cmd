@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc_subset.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/cdc_subset.ko drivers/net/usb/cdc_subset.o drivers/net/usb/cdc_subset.mod.o ;  true

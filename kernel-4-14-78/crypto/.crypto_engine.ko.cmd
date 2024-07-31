@@ -1,0 +1,1 @@
+cmd_crypto/crypto_engine.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o crypto/crypto_engine.ko crypto/crypto_engine.o crypto/crypto_engine.mod.o ;  true

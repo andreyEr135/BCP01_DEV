@@ -1,0 +1,1 @@
+cmd_arch/arm64/xen/xen-arm.o := rm -f arch/arm64/xen/xen-arm.o; aarch64-linux-gnu-ar rcSTPD arch/arm64/xen/xen-arm.o arch/arm64/xen/../../arm/xen/enlighten.o arch/arm64/xen/../../arm/xen/grant-table.o arch/arm64/xen/../../arm/xen/p2m.o arch/arm64/xen/../../arm/xen/mm.o

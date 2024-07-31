@@ -1,0 +1,47 @@
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-wilink-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-wilink-overlay.dts"
+# 15 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-wilink-overlay.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ compatible = "fsl,imx8mq-evk","fsl,seco-imx8mq-c12", "fsl,imx8mq";
+# 28 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-wilink-overlay.dts"
+     fragment@0 {
+         target = <&usdhc2>;
+         __overlay__ {
+   pinctrl-names = "default", "state_100mhz", "state_200mhz";
+   pinctrl-0 = <&pinctrl_usdhc2>, <&pinctrl_usdhc2_gpio>,<&pinctrl_wlan>;
+   /delete-property/ cd-gpios;
+   non-removable;
+   vmmc-supply = <&reg_wlan_en>;
+   status = "okay";
+
+   wlcore: wlcore@0 {
+    status = "okay";
+   };
+  };
+ };
+
+
+
+
+
+
+
+  fragment@1 {
+                target-path = "/";
+                __overlay__ {
+   kim {
+    compatible = "kim";
+    nshutdown_gpio = "null";
+    dev_name = "/dev/ttymxc3";
+    flow_cntrl = <1>;
+    baud_rate = <1000000>;
+   };
+
+  };
+ };
+};

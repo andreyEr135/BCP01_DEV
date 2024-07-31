@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/mxc/built-in.o :=  rm -f drivers/video/fbdev/mxc/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/video/fbdev/mxc/built-in.o drivers/video/fbdev/mxc/mxc_edid.o drivers/video/fbdev/mxc/mxc_dispdrv.o drivers/video/fbdev/mxc/imx_dcss.o 

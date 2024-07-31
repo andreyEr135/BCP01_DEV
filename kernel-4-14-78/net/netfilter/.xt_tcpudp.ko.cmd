@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_tcpudp.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_tcpudp.ko net/netfilter/xt_tcpudp.o net/netfilter/xt_tcpudp.mod.o ;  true

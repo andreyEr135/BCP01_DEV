@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  rm -f drivers/input/touchscreen/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/input/touchscreen/built-in.o drivers/input/touchscreen/of_touchscreen.o drivers/input/touchscreen/vtl/built-in.o drivers/input/touchscreen/synaptics_dsx/built-in.o 

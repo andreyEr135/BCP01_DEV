@@ -1,0 +1,8 @@
+c12_ram_setup.c:114:5:c12_get_board_configuration	16	static
+c12_ram_setup.c:145:5:c12_get_hw_revision	16	static
+c12_ram_setup.c:175:5:c12_get_q_ql	16	static
+c12_ram_setup.c:199:5:c12_get_spi_canrtc	16	static
+c12_ram_setup.c:223:5:c12_get_pcie	16	static
+c12_ram_setup.c:247:6:c12_fdt_ram_setup	64	static
+c12_ram_setup.c:278:6:c12_fdt_vpu_setup	64	static
+c12_ram_setup.c:300:6:c12_fdt_pcie_setup	32	static

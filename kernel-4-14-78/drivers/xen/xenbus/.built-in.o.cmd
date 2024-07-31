@@ -1,0 +1,1 @@
+cmd_drivers/xen/xenbus/built-in.o :=  rm -f drivers/xen/xenbus/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/xen/xenbus/built-in.o drivers/xen/xenbus/xenbus.o drivers/xen/xenbus/xenbus_dev_frontend.o drivers/xen/xenbus/xenbus_probe_frontend.o 

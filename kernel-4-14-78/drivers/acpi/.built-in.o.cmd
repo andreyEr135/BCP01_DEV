@@ -1,0 +1,1 @@
+cmd_drivers/acpi/built-in.o :=  rm -f drivers/acpi/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/acpi/built-in.o drivers/acpi/tables.o drivers/acpi/acpi.o drivers/acpi/acpica/built-in.o drivers/acpi/pci_mcfg.o drivers/acpi/container.o drivers/acpi/acpi_memhotplug.o drivers/acpi/spcr.o drivers/acpi/dptf/built-in.o drivers/acpi/arm64/built-in.o 

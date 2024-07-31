@@ -1,0 +1,31 @@
+!<thin>
+//                                              280       `
+core.o/
+pinctrl-utils.o/
+pinmux.o/
+pinconf.o/
+devicetree.o/
+pinconf-generic.o/
+pinctrl-max77620.o/
+pinctrl-single.o/
+freescale/pinctrl-imx.o/
+freescale/pinctrl-memmap.o/
+freescale/pinctrl-scu.o/
+freescale/pinctrl-imx8qm.o/
+freescale/pinctrl-imx8mq.o/
+freescale/pinctrl-imx8mm.o/
+
+/0              0           0     0     644     51208     `
+/8             /0           0     0     644     5400      `
+/25             0           0     0     644     17360     `
+/35             0           0     0     644     12896     `
+/46             0           0     0     644     6904      `
+/60             0           0     0     644     10976     `
+/79             0           0     0     644     12296     `
+/99             0           0     0     644     25680     `
+/117            0           0     0     644     12544     `
+/142            0           0     0     644     3304      `
+/170            0           0     0     644     2224      `
+/195            0           0     0     644     22720     `
+/223            0           0     0     644     14784     `
+/251            0           0     0     644     14712     `

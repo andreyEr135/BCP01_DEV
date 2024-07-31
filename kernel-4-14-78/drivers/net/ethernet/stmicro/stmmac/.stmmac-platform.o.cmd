@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/stmicro/stmmac/stmmac-platform.o := aarch64-poky-linux-ld -EL  -maarch64linux   -r -o drivers/net/ethernet/stmicro/stmmac/stmmac-platform.o drivers/net/ethernet/stmicro/stmmac/stmmac_platform.o 

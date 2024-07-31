@@ -1,0 +1,25 @@
+!<thin>
+//                                              208       `
+imx-hdp.o/
+imx-dp.o/
+imx-hdmi.o/
+imx-arc.o/
+API_AFE_ss28fdsoi_kiran_hdmitx.o/
+API_AFE_t28hpc_hdmitx.o/
+ss28fdsoi_hdmitx_table.o/
+t28hpc_hdmitx_table.o/
+API_AFE_mcu1_dp.o/
+API_AFE_mcu2_dp.o/
+imx-hdp-audio.o/
+
+/0              0           0     0     644     46184     `
+/11             0           0     0     644     11560     `
+/21             0           0     0     644     10744     `
+/33             0           0     0     644     3336      `
+/44             0           0     0     644     9408      `
+/78             0           0     0     644     14184     `
+/103            0           0     0     644     4752      `
+/129            0           0     0     644     10424     `
+/152            0           0     0     644     8368      `
+/171            0           0     0     644     8784      `
+/190           /0           0     0     644     4368      `

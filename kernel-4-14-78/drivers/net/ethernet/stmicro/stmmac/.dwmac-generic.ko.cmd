@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/stmicro/stmmac/dwmac-generic.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/stmicro/stmmac/dwmac-generic.ko drivers/net/ethernet/stmicro/stmmac/dwmac-generic.o drivers/net/ethernet/stmicro/stmmac/dwmac-generic.mod.o ;  true

@@ -1,0 +1,27 @@
+!<thin>
+//                                              224       `
+mu/mx8_mu.o/
+sc/main/ipc.o/
+sc/svc/misc/rpc_clnt.o/
+sc/svc/pad/rpc_clnt.o/
+sc/svc/pm/rpc_clnt.o/
+sc/svc/rm/rpc_clnt.o/
+sc/svc/timer/rpc_clnt.o/
+sc/svc/irq/rpc_clnt.o/
+pm-domains.o/
+busfreq-imx8mq.o/
+gpc-psci.o/
+soc-imx8.o/
+
+/0              0           0     0     644     4064      `
+/13             0           0     0     644     15704     `
+/28             0           0     0     644     5488      `
+/52             0           0     0     644     3656      `
+/75             0           0     0     644     4120      `
+/97             0           0     0     644     5368      `
+/119            0           0     0     644     3584      `
+/144            0           0     0     644     1352      `
+/167            0           0     0     644     18288     `
+/181            0           0     0     644     25128     `
+/199            0           0     0     644     13112     `
+/211            0           0     0     644     14368     `

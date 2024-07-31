@@ -1,0 +1,5 @@
+kernel/drivers/clk/clk-cdce925.ko
+kernel/drivers/clk/clk-cs2000-cp.ko
+kernel/drivers/clk/clk-pwm.ko
+kernel/drivers/clk/clk-rk808.ko
+kernel/drivers/clk/clk-s2mps11.ko

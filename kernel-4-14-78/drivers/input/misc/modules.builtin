@@ -1,0 +1,3 @@
+kernel/drivers/input/misc/xen-kbdfront.ko
+kernel/drivers/input/misc/mpl3115.ko
+kernel/drivers/input/misc/isl29023.ko

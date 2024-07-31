@@ -1,0 +1,14 @@
+!<thin>
+//                                              260       `
+mxc_vpu-malone.o/
+Malone_Firmware/DecKLib/KernelIF/DecKernelLib.o/
+Malone_Firmware/DecKLib/KernelIF/DecKernelLibPrivate.o/
+Malone_Firmware/DecKLib/Control/DecKernelLibHWControl.o/
+Malone_Firmware/DecKLib/Control/DecKernelLibHWIsr.o/
+Malone_Firmware/PAL/pal.o/
+/0              0           0     0     644     33112     `
+/18             0           0     0     644     1672      `
+/67             0           0     0     644     2416      `
+/123            0           0     0     644     2624      `
+/180            0           0     0     644     3112      `
+/233            0           0     0     644     7208      `

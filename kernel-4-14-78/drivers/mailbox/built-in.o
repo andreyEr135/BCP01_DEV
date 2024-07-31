@@ -1,0 +1,13 @@
+!<thin>
+//                                              68        `
+mailbox.o/
+arm_mhu.o/
+platform_mhu.o/
+pcc.o/
+bcm-flexrm-mailbox.o/
+
+/0              0           0     0     644     11888     `
+/11             0           0     0     644     5720      `
+/22             0           0     0     644     6600      `
+/38             0           0     0     644     11056     `
+/45             0           0     0     644     18944     `

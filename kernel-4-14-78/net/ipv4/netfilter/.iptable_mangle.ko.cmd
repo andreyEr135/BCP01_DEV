@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/iptable_mangle.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/ipv4/netfilter/iptable_mangle.ko net/ipv4/netfilter/iptable_mangle.o net/ipv4/netfilter/iptable_mangle.mod.o ;  true

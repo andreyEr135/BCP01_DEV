@@ -1,0 +1,1 @@
+cmd_drivers/clk/versatile/built-in.o :=  rm -f drivers/clk/versatile/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/clk/versatile/built-in.o drivers/clk/versatile/clk-sp810.o drivers/clk/versatile/clk-vexpress-osc.o 

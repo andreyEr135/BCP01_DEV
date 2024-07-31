@@ -1,0 +1,2 @@
+kernel/drivers/dma/qcom/hdma_mgmt.ko
+kernel/drivers/dma/qcom/hdma.ko

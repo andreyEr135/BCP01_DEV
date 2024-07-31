@@ -1,0 +1,2 @@
+kernel/drivers/pwm/pwm-fsl-ftm.ko
+kernel/drivers/pwm/pwm-imx.ko

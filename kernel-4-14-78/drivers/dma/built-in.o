@@ -1,0 +1,28 @@
+!<thin>
+//                                              186       `
+dmaengine.o/
+virt-dma.o/
+acpi-dma.o/
+of-dma.o/
+fsl-edma-v3.o/
+mv_xor_v2.o/
+mxs-dma.o/
+pl330.o/
+qcom/hidma_mgmt.o/
+qcom/hidma_mgmt_sys.o/
+qcom/hidma_ll.o/
+qcom/hidma.o/
+qcom/hidma_dbg.o/
+/0              0           0     0     644     31144     `
+/13             0           0     0     644     4736      `
+/25             0           0     0     644     8904      `
+/37             0           0     0     644     8344      `
+/47             0           0     0     644     17856     `
+/62             0           0     0     644     12496     `
+/75             0           0     0     644     16608     `
+/86             0           0     0     644     32288     `
+/95             0           0     0     644     13176     `
+/114            0           0     0     644     7688      `
+/137            0           0     0     644     10920     `
+/154            0           0     0     644     20808     `
+/168            0           0     0     644     9392      `

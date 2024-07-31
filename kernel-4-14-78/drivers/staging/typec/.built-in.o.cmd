@@ -1,0 +1,1 @@
+cmd_drivers/staging/typec/built-in.o :=  rm -f drivers/staging/typec/built-in.o; aarch64-poky-linux-ar rcSTPD drivers/staging/typec/built-in.o drivers/staging/typec/tcpm.o drivers/staging/typec/tcpci.o drivers/staging/typec/fusb302/built-in.o 

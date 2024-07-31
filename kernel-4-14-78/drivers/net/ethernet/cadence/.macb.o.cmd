@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cadence/macb.o := rm -f drivers/net/ethernet/cadence/macb.o; aarch64-poky-linux-ar rcSTPD drivers/net/ethernet/cadence/macb.o drivers/net/ethernet/cadence/macb_main.o drivers/net/ethernet/cadence/macb_ptp.o

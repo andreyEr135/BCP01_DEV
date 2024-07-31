@@ -1,0 +1,1 @@
+cmd_drivers/usb/chipidea/ci_hdrc.o := rm -f drivers/usb/chipidea/ci_hdrc.o; aarch64-linux-gnu-ar rcSTPD drivers/usb/chipidea/ci_hdrc.o drivers/usb/chipidea/core.o drivers/usb/chipidea/otg.o drivers/usb/chipidea/debug.o drivers/usb/chipidea/udc.o drivers/usb/chipidea/host.o

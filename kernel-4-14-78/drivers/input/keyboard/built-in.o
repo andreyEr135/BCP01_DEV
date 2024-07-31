@@ -1,0 +1,12 @@
+!<thin>
+//                                              70        `
+atkbd.o/
+cros_ec_keyb.o/
+gpio_keys.o/
+snvs_pwrkey.o/
+imx_sc_pwrkey.o/
+/0              0           0     0     644     26024     `
+/9              0           0     0     644     9824      `
+/25             0           0     0     644     17848     `
+/38             0           0     0     644     8128      `
+/53            /0           0     0     644     7264      `

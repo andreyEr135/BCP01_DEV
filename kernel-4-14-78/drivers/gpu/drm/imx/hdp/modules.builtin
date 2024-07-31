@@ -1,0 +1,11 @@
+kernel/drivers/gpu/drm/imx/hdp/imx-hdp.ko
+kernel/drivers/gpu/drm/imx/hdp/imx-dp.ko
+kernel/drivers/gpu/drm/imx/hdp/imx-hdmi.ko
+kernel/drivers/gpu/drm/imx/hdp/imx-arc.ko
+kernel/drivers/gpu/drm/imx/hdp/API_AFE_ss28fdsoi_kiran_hdmitx.ko
+kernel/drivers/gpu/drm/imx/hdp/API_AFE_t28hpc_hdmitx.ko
+kernel/drivers/gpu/drm/imx/hdp/ss28fdsoi_hdmitx_table.ko
+kernel/drivers/gpu/drm/imx/hdp/t28hpc_hdmitx_table.ko
+kernel/drivers/gpu/drm/imx/hdp/API_AFE_mcu1_dp.ko
+kernel/drivers/gpu/drm/imx/hdp/API_AFE_mcu2_dp.ko
+kernel/drivers/gpu/drm/imx/hdp/imx-hdp-audio.ko

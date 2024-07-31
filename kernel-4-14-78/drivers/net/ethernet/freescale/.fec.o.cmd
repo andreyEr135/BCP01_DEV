@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/freescale/fec.o := rm -f drivers/net/ethernet/freescale/fec.o; aarch64-linux-gnu-ar rcSTPD drivers/net/ethernet/freescale/fec.o drivers/net/ethernet/freescale/fec_main.o drivers/net/ethernet/freescale/fec_fixup.o drivers/net/ethernet/freescale/fec_ptp.o

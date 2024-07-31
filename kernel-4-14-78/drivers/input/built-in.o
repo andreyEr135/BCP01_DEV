@@ -1,0 +1,61 @@
+!<thin>
+//                                              560       `
+input.o/
+input-compat.o/
+input-mt.o/
+ff-core.o/
+input-polldev.o/
+matrix-keymap.o/
+input-leds.o/
+mousedev.o/
+evdev.o/
+keyboard/atkbd.o/
+keyboard/cros_ec_keyb.o/
+keyboard/gpio_keys.o/
+keyboard/snvs_pwrkey.o/
+keyboard/imx_sc_pwrkey.o/
+mouse/psmouse-base.o/
+mouse/synaptics.o/
+mouse/focaltech.o/
+mouse/alps.o/
+mouse/byd.o/
+mouse/logips2pp.o/
+mouse/trackpoint.o/
+mouse/cypress_ps2.o/
+mouse/psmouse-smbus.o/
+touchscreen/of_touchscreen.o/
+touchscreen/vtl/vtl_ts.o/
+touchscreen/synaptics_dsx/synaptics_dsx_i2c.o/
+misc/xen-kbdfront.o/
+misc/mpl3115.o/
+misc/isl29023.o/
+
+/0              0           0     0     644     52792     `
+/9              0           0     0     644     3584      `
+/25             0           0     0     644     8416      `
+/37             0           0     0     644     6672      `
+/48            /0           0     0     644     9896      `
+/65            /0           0     0     644     4944      `
+/82             0           0     0     644     6760      `
+/96             0           0     0     644     19816     `
+/108            0           0     0     644     24208     `
+/117            0           0     0     644     26024     `
+/135            0           0     0     644     9824      `
+/160            0           0     0     644     17848     `
+/182            0           0     0     644     8128      `
+/206           /0           0     0     644     7264      `
+/232            0           0     0     644     33720     `
+/254            0           0     0     644     25544     `
+/273            0           0     0     644     6088      `
+/292            0           0     0     644     35936     `
+/306            0           0     0     644     5488      `
+/319            0           0     0     644     6648      `
+/338            0           0     0     644     13416     `
+/358            0           0     0     644     7856      `
+/379           /0           0     0     644     6568      `
+/402            0           0     0     644     4920      `
+/432            0           0     0     644     11016     `
+/458            0           0     0     644     41352     `
+/505            0           0     0     644     13264     `
+/526            0           0     0     644     8864      `
+/542            0           0     0     644     18488     `

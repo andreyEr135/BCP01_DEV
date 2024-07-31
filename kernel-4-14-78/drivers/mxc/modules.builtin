@@ -1,0 +1,17 @@
+kernel/drivers/mxc/gpu-viv/galcore.ko
+kernel/drivers/mxc/hantro/hantrodec.ko
+kernel/drivers/mxc/hantro_845/hantrodec_845s.ko
+kernel/drivers/mxc/hantro_845_h1/hx280enc.ko
+kernel/drivers/mxc/hdp/API_Audio.ko
+kernel/drivers/mxc/hdp/API_AFE.ko
+kernel/drivers/mxc/hdp/API_General.ko
+kernel/drivers/mxc/hdp/API_HDCP.ko
+kernel/drivers/mxc/hdp/API_HDMITX.ko
+kernel/drivers/mxc/hdp/API_Infoframe.ko
+kernel/drivers/mxc/hdp/API_DPTX.ko
+kernel/drivers/mxc/hdp/util.ko
+kernel/drivers/mxc/hdp/API_HDMIRX.ko
+kernel/drivers/mxc/hdp/API_HDMI_RX_Audio.ko
+kernel/drivers/mxc/mlb/mxc_mlb.ko
+kernel/drivers/mxc/sim/imx_emvsim.ko
+kernel/drivers/mxc/vpu-malone/decoder.ko

@@ -1,0 +1,15 @@
+!<thin>
+//                                              116       `
+phy-core.o/
+phy-xgene.o/
+phy-mixel-lvds.o/
+phy-mixel-mipi-dsi.o/
+phy-fsl-imx8mq-usb.o/
+samsung/phy-samsung-usb2.o/
+
+/0              0           0     0     644     30776     `
+/12             0           0     0     644     16280     `
+/25             0           0     0     644     10576     `
+/43             0           0     0     644     10168     `
+/65             0           0     0     644     5864      `
+/87             0           0     0     644     8304      `

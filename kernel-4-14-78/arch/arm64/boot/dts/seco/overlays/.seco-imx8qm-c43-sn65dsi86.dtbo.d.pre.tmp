@@ -1,0 +1,2 @@
+seco-imx8qm-c43-sn65dsi86-overlay.o: \
+ arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c43-sn65dsi86-overlay.dts

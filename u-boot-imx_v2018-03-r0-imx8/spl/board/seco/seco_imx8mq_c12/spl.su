@@ -1,0 +1,8 @@
+spl.c:31:6:spl_dram_init	32	static
+spl.c:166:5:board_mmc_getcd	16	static
+spl.c:219:5:board_mmc_init	48	static
+spl.c:264:5:power_init_board	48	static
+spl.c:305:6:micro_init	32	static
+spl.c:329:6:spl_board_init	16	static
+spl.c:345:5:board_fit_config_name_match	0	static
+spl.c:354:6:board_init_f	16	static

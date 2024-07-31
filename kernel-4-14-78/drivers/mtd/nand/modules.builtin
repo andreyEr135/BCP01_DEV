@@ -1,0 +1,5 @@
+kernel/drivers/mtd/nand/nand.ko
+kernel/drivers/mtd/nand/nand_ecc.ko
+kernel/drivers/mtd/nand/denali.ko
+kernel/drivers/mtd/nand/denali_dt.ko
+kernel/drivers/mtd/nand/gpmi-nand/gpmi_nand.ko

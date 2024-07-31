@@ -1,0 +1,1 @@
+cmd_drivers/media/cec/cec.o := rm -f drivers/media/cec/cec.o; aarch64-poky-linux-ar rcSTPD drivers/media/cec/cec.o drivers/media/cec/cec-core.o drivers/media/cec/cec-adap.o drivers/media/cec/cec-api.o drivers/media/cec/cec-edid.o

@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/aes-neon-bs.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o arch/arm64/crypto/aes-neon-bs.ko arch/arm64/crypto/aes-neon-bs.o arch/arm64/crypto/aes-neon-bs.mod.o ;  true

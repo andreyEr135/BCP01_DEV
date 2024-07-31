@@ -1,0 +1,29 @@
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dp-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dp-overlay.dts"
+# 15 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dp-overlay.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ compatible = "fsl,imx8mq-evk","fsl,seco-imx8mq-c25", "fsl,imx8mq";
+# 28 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dp-overlay.dts"
+     fragment@0 {
+         target = <&reg_hdmi_lvl_en>;
+         __overlay__ {
+   regulator-boot-on;
+                        regulator-always-on;
+  };
+ };
+
+     fragment@1 {
+         target = <&hdmi>;
+         __overlay__ {
+   compatible = "fsl,imx8mq-dp";
+   dp-lane-mapping = <0xc6>;
+   dp-link-rate = <0x14>;
+   dp-num-lanes = <0x4>;
+  };
+ };
+};

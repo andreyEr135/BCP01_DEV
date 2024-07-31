@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/built-in.o :=  rm -f drivers/input/misc/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/input/misc/built-in.o drivers/input/misc/xen-kbdfront.o drivers/input/misc/mpl3115.o drivers/input/misc/isl29023.o 

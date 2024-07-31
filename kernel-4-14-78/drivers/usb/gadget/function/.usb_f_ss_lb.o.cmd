@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_ss_lb.o := rm -f drivers/usb/gadget/function/usb_f_ss_lb.o; aarch64-linux-gnu-ar rcSTPD drivers/usb/gadget/function/usb_f_ss_lb.o drivers/usb/gadget/function/f_loopback.o drivers/usb/gadget/function/f_sourcesink.o

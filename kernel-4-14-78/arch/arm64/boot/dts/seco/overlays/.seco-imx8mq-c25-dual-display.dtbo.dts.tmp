@@ -1,0 +1,96 @@
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dual-display-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dual-display-overlay.dts"
+# 15 "arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-dual-display-overlay.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+        compatible = "fsl,imx8mq-evk","fsl,imx8mq-seco-c25", "fsl,imx8mq";
+
+
+
+
+
+
+
+ fragment@1 {
+                target = <&lcdif>;
+                __overlay__ {
+   status = "okay";
+   max-res = <1920>,<1080>;
+   bits-per-pixel = <32>;
+   bus-width = <24>;
+   port@0 {
+    lcdif_mipi_dsi: mipi-dsi-endpoint {
+     remote-endpoint = <&mipi_dsi_in>;
+                 };
+   };
+  };
+        };
+
+ fragment@2 {
+                target = <&adv_bridge>;
+                __overlay__ {
+                        compatible = "ti,sn65dsi84";
+   adi,dsi-lanes = <4>;
+   lvds,pixelclock = <80000000>;
+
+   lvds,hactive = <1920>;
+   lvds,vactive = <1080>;
+   lvds,hfront_porch = <0>;
+   lvds,hback_porch = <1>;
+   lvds,hsync_len = <0>;
+   lvds,vfront_porch = <0>;
+   lvds,vback_porch = <0>;
+   lvds,vsync_len = <1>;
+   lvds,color_depth = "rgb24";
+   lvds,datamap = "jeida";
+   lvds,dual-channel;
+   status = "okay";
+
+   port {
+    sn65dsi84_in: endpoint {
+     remote-endpoint = <&mipi_dsi_bridge_adv>;
+    };
+   };
+  };
+ };
+
+ fragment@3 {
+                target = <&mipi_dsi_phy>;
+                __overlay__ {
+                        status = "okay";
+                 };
+        };
+
+ fragment@4 {
+                target = <&mipi_dsi>;
+                __overlay__ {
+   status = "okay";
+   as_bridge;
+   sync-pol = <1>;
+   pwr-delay = <10>;
+
+   port@1 {
+    mipi_dsi_in: endpoint {
+     remote-endpoint = <&lcdif_mipi_dsi>;
+    };
+   };
+  };
+ };
+
+ fragment@5 {
+                target = <&mipi_dsi_bridge>;
+                __overlay__ {
+                        status = "okay";
+   port@1 {
+    mipi_dsi_bridge_adv: endpoint {
+     remote-endpoint = <&sn65dsi84_in>;
+    };
+   };
+  };
+        };
+
+};

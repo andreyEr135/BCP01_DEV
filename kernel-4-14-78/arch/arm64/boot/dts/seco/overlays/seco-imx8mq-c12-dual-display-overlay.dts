@@ -1,0 +1,113 @@
+/*
+ * Copyright 2017 NXP
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+/dts-v1/;
+/plugin/;
+
+/ {
+        compatible = "fsl,imx8mq-evk","fsl,seco-imx8mq-c12", "fsl,imx8mq";
+
+/*  __________________________________________________________________________
+ * |                                                                          |
+ * |                               WiFi                                       |
+ * |__________________________________________________________________________|
+ */
+
+	fragment@0 {
+                target = <&ov5640_mipi>;
+                __overlay__ {
+                        status = "disabled";
+                 };
+        };
+
+	fragment@1 {
+                target = <&lcdif>;
+                __overlay__ {
+			status = "okay";
+			max-res = <1920>,<1080>;
+			bits-per-pixel = <32>;
+			bus-width = <24>;
+			port@0 {
+				lcdif_mipi_dsi: mipi-dsi-endpoint {
+					remote-endpoint = <&mipi_dsi_in>;
+	              		};
+			};
+		};
+        };		
+
+	fragment@2 {
+                target = <&adv_bridge>;
+                __overlay__ {
+                        compatible = "ti,sn65dsi84";
+			adi,dsi-lanes = <4>;
+			lvds,pixelclock = <80000000>; /* Report Single Channel Clock if panel
+							is Dual Channel */
+			lvds,hactive = <1920>;
+			lvds,vactive = <1080>;
+			lvds,hfront_porch = <0>;
+			lvds,hback_porch = <1>;
+			lvds,hsync_len = <0>;
+			lvds,vfront_porch = <0>;
+			lvds,vback_porch = <0>;
+			lvds,vsync_len = <1>;
+			lvds,color_depth = "rgb24";
+			lvds,datamap = "jeida";
+			lvds,dual-channel;
+			status = "okay";
+
+			port {
+				sn65dsi84_in: endpoint {
+					remote-endpoint = <&mipi_dsi_bridge_adv>;
+				};
+			};
+		};
+	};
+	
+	fragment@3 {
+                target = <&mipi_dsi_phy>;
+                __overlay__ {
+                        status = "okay";
+                 };
+        };
+
+	fragment@4 {
+                target = <&mipi_dsi>;
+                __overlay__ {
+			status = "okay";
+			as_bridge;
+			sync-pol = <1>;
+			pwr-delay = <10>;
+
+			port@1 {
+				mipi_dsi_in: endpoint {
+					remote-endpoint = <&lcdif_mipi_dsi>;
+				};
+			}; 
+		};
+	};
+
+	fragment@5 {
+                target = <&mipi_dsi_bridge>;
+                __overlay__ {
+                        status = "okay";
+			port@1 {
+				mipi_dsi_bridge_adv: endpoint {
+					remote-endpoint = <&sn65dsi84_in>;
+				};
+			};
+		};
+        };
+
+};
+

@@ -1,0 +1,32 @@
+!<thin>
+//                                              230       `
+wlcore/main.o/
+wlcore/cmd.o/
+wlcore/io.o/
+wlcore/event.o/
+wlcore/tx.o/
+wlcore/rx.o/
+wlcore/ps.o/
+wlcore/acx.o/
+wlcore/boot.o/
+wlcore/init.o/
+wlcore/debugfs.o/
+wlcore/scan.o/
+wlcore/sysfs.o/
+wlcore/vendor_cmd.o/
+wlcore/testmode.o/
+/0              0           0     0     644     108280    `
+/15             0           0     0     644     41128     `
+/29             0           0     0     644     7312      `
+/42             0           0     0     644     14768     `
+/58             0           0     0     644     24024     `
+/71             0           0     0     644     6584      `
+/84             0           0     0     644     9392      `
+/97             0           0     0     644     39752     `
+/111            0           0     0     644     12344     `
+/126            0           0     0     644     9568      `
+/141            0           0     0     644     42520     `
+/159            0           0     0     644     9064      `
+/174            0           0     0     644     5096      `
+/190            0           0     0     644     3992      `
+/211            0           0     0     644     5872      `

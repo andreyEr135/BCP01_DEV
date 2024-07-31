@@ -1,0 +1,2 @@
+seco-imx8mq-c12-can-rtc-overlay.o: \
+ arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-can-rtc-overlay.dts

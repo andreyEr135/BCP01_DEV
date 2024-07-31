@@ -1,0 +1,1 @@
+cmd_drivers/mxc/built-in.o :=  rm -f drivers/mxc/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/mxc/built-in.o drivers/mxc/mlb/built-in.o drivers/mxc/sim/built-in.o drivers/mxc/gpu-viv/built-in.o drivers/mxc/hantro/built-in.o drivers/mxc/hantro_845/built-in.o drivers/mxc/hantro_845_h1/built-in.o drivers/mxc/vpu-malone/built-in.o drivers/mxc/hdp/built-in.o 

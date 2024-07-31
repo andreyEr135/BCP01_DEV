@@ -1,0 +1,19 @@
+!<thin>
+//                                              134       `
+hns_ae_adapt.o/
+hns_dsaf_gmac.o/
+hns_dsaf_mac.o/
+hns_dsaf_misc.o/
+hns_dsaf_main.o/
+hns_dsaf_ppe.o/
+hns_dsaf_rcb.o/
+hns_dsaf_xgmac.o/
+
+/0              0           0     0     644     17312     `
+/16            /0           0     0     644     23392     `
+/33             0           0     0     644     14320     `
+/49            /0           0     0     644     10880     `
+/66            /0           0     0     644     49360     `
+/83             0           0     0     644     13232     `
+/99             0           0     0     644     20856     `
+/115            0           0     0     644     27504     `

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/imx/dpu/built-in.o :=  rm -f drivers/gpu/drm/imx/dpu/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/gpu/drm/imx/dpu/built-in.o drivers/gpu/drm/imx/dpu/imx-dpu-crtc.o drivers/gpu/drm/imx/dpu/imx-dpu-render.o 

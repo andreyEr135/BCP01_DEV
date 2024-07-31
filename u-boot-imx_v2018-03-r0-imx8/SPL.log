@@ -1,0 +1,6 @@
+Image Type:   Freescale IMX Boot Image
+Image Ver:    2 (i.MX53/6/7 compatible)
+Mode:         DCD
+Data Size:    122880 Bytes = 120.00 KiB = 0.12 MiB
+Load Address: 007e0420
+Entry Point:  007e1000

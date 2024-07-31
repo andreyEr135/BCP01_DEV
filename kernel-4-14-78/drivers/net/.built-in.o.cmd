@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.o :=  rm -f drivers/net/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/net/built-in.o drivers/net/ipvlan/built-in.o drivers/net/macvlan.o drivers/net/macvtap.o drivers/net/Space.o drivers/net/loopback.o drivers/net/phy/built-in.o drivers/net/tap.o drivers/net/can/built-in.o drivers/net/ethernet/built-in.o 

@@ -1,0 +1,2 @@
+sip.c:10:15:call_imx_sip	272	static
+sip.c:27:15:call_imx_sip_ret2	288	static

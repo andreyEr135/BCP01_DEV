@@ -1,0 +1,54 @@
+!<thin>
+//                                              502       `
+imx-drm-core.o/
+parallel-display.o/
+imx-tve.o/
+imx-ldb.o/
+dw_hdmi-imx.o/
+dpu/dpu-crtc.o/
+dpu/dpu-plane.o/
+dpu/dpu-kms.o/
+dpu/dpu-blit.o/
+hdp/imx-hdp.o/
+hdp/imx-dp.o/
+hdp/imx-hdmi.o/
+hdp/imx-arc.o/
+hdp/API_AFE_ss28fdsoi_kiran_hdmitx.o/
+hdp/API_AFE_t28hpc_hdmitx.o/
+hdp/ss28fdsoi_hdmitx_table.o/
+hdp/t28hpc_hdmitx_table.o/
+hdp/API_AFE_mcu1_dp.o/
+hdp/API_AFE_mcu2_dp.o/
+hdp/imx-hdp-audio.o/
+dcss/dcss-crtc.o/
+dcss/dcss-plane.o/
+dcss/dcss-kms.o/
+lcdif/lcdif-crtc.o/
+lcdif/lcdif-plane.o/
+lcdif/lcdif-kms.o/
+/0              0           0     0     644     15608     `
+/16             0           0     0     644     8432      `
+/36             0           0     0     644     14592     `
+/47             0           0     0     644     26856     `
+/58             0           0     0     644     7248      `
+/73             0           0     0     644     25120     `
+/89             0           0     0     644     17256     `
+/106            0           0     0     644     9584      `
+/121            0           0     0     644     8568      `
+/137            0           0     0     644     46184     `
+/152            0           0     0     644     11560     `
+/166            0           0     0     644     10744     `
+/182            0           0     0     644     3336      `
+/197            0           0     0     644     9408      `
+/235            0           0     0     644     14184     `
+/264            0           0     0     644     4752      `
+/294            0           0     0     644     10424     `
+/321            0           0     0     644     8368      `
+/344            0           0     0     644     8784      `
+/367           /0           0     0     644     4368      `
+/388            0           0     0     644     12976     `
+/406            0           0     0     644     11488     `
+/425            0           0     0     644     4976      `
+/442            0           0     0     644     10144     `
+/462            0           0     0     644     4912      `
+/483            0           0     0     644     2408      `

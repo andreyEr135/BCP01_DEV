@@ -1,0 +1,6 @@
+kernel/drivers/mfd/cros_ec_core.ko
+kernel/drivers/mfd/cros_ec_i2c.ko
+kernel/drivers/mfd/cros_ec_spi.ko
+kernel/drivers/mfd/mfd-core.ko
+kernel/drivers/mfd/rk808.ko
+kernel/drivers/mfd/hi6421-pmic-core.ko

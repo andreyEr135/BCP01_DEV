@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/built-in.o :=  rm -f drivers/net/wireless/intersil/built-in.o; aarch64-poky-linux-ar rcSTPD drivers/net/wireless/intersil/built-in.o drivers/net/wireless/intersil/hostap/built-in.o 

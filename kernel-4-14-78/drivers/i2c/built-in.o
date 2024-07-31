@@ -1,0 +1,39 @@
+!<thin>
+//                                              382       `
+i2c-boardinfo.o/
+i2c-core-base.o/
+i2c-core-smbus.o/
+i2c-core-acpi.o/
+i2c-core-slave.o/
+i2c-core-of.o/
+i2c-dev.o/
+i2c-mux.o/
+algos/i2c-algo-bit.o/
+busses/i2c-designware-common.o/
+busses/i2c-designware-master.o/
+busses/i2c-designware-platdrv.o/
+busses/i2c-imx.o/
+busses/i2c-imx-lpi2c.o/
+busses/i2c-rk3x.o/
+busses/i2c-cros-ec-tunnel.o/
+busses/xen-i2cfront.o/
+muxes/i2c-mux-pca954x.o/
+
+/0             /0           0     0     644     3784      `
+/17            /0           0     0     644     53240     `
+/34             0           0     0     644     10664     `
+/52            /0           0     0     644     11328     `
+/69             0           0     0     644     5336      `
+/87             0           0     0     644     7568      `
+/102            0           0     0     644     13328     `
+/113            0           0     0     644     10912     `
+/124            0           0     0     644     9592      `
+/146            0           0     0     644     6560      `
+/178            0           0     0     644     9424      `
+/210            0           0     0     644     10616     `
+/243            0           0     0     644     21448     `
+/261           /0           0     0     644     12576     `
+/285            0           0     0     644     18256     `
+/304            0           0     0     644     6248      `
+/333            0           0     0     644     11304     `
+/356            0           0     0     644     11480     `

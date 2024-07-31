@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/chacha20-neon.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o arch/arm64/crypto/chacha20-neon.ko arch/arm64/crypto/chacha20-neon.o arch/arm64/crypto/chacha20-neon.mod.o ;  true

@@ -1,0 +1,3 @@
+kernel/drivers/mtd/spi-nor/spi-nor.ko
+kernel/drivers/mtd/spi-nor/fsl-quadspi.ko
+kernel/drivers/mtd/spi-nor/fsl-flexspi.ko

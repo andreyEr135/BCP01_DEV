@@ -1,0 +1,2 @@
+kernel/drivers/misc/fxos8700.ko
+kernel/drivers/misc/ti-st/st_drv.ko

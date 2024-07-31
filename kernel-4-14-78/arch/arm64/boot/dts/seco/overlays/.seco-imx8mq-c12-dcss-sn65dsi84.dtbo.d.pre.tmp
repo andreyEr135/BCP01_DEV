@@ -1,0 +1,3 @@
+seco-imx8mq-c12-dcss-sn65dsi84-overlay.o: \
+ arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c12-dcss-sn65dsi84-overlay.dts \
+ scripts/dtc/include-prefixes/dt-bindings/clock/imx8mq-clock.h

@@ -1,0 +1,29 @@
+!<thin>
+//                                              178       `
+dcss-common.o/
+dcss-blkctl.o/
+dcss-ctxld.o/
+dcss-dpr.o/
+dcss-dtg.o/
+dcss-ss.o/
+dcss-hdr10.o/
+dcss-scaler.o/
+dcss-dtrc.o/
+dcss-dec400d.o/
+dcss-wrscl.o/
+dcss-rdsrc.o/
+dcss-pll.o/
+
+/0              0           0     0     644     22424     `
+/15             0           0     0     644     4008      `
+/30             0           0     0     644     9848      `
+/44             0           0     0     644     11712     `
+/56             0           0     0     644     13544     `
+/68             0           0     0     644     5072      `
+/79             0           0     0     644     54424     `
+/93             0           0     0     644     10104     `
+/108            0           0     0     644     11616     `
+/121            0           0     0     644     6768      `
+/137            0           0     0     644     3800      `
+/151            0           0     0     644     3448      `
+/165            0           0     0     644     4176      `

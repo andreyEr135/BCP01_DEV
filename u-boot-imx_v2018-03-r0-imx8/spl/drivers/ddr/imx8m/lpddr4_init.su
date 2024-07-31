@@ -1,0 +1,2 @@
+lpddr4_init.c:16:6:lpddr4_cfg_umctl2	0	static
+lpddr4_init.c:26:6:ddr_init	32	static

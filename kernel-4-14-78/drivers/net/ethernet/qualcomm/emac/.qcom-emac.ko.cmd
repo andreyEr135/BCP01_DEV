@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/qualcomm/emac/qcom-emac.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/qualcomm/emac/qcom-emac.ko drivers/net/ethernet/qualcomm/emac/qcom-emac.o drivers/net/ethernet/qualcomm/emac/qcom-emac.mod.o ;  true

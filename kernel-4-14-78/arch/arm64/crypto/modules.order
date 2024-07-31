@@ -1,0 +1,6 @@
+kernel/arch/arm64/crypto/crct10dif-ce.ko
+kernel/arch/arm64/crypto/crc32-ce.ko
+kernel/arch/arm64/crypto/aes-neon-blk.ko
+kernel/arch/arm64/crypto/sha512-arm64.ko
+kernel/arch/arm64/crypto/chacha20-neon.ko
+kernel/arch/arm64/crypto/aes-neon-bs.ko

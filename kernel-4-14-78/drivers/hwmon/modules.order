@@ -1,0 +1,2 @@
+kernel/drivers/hwmon/ina2xx.ko
+kernel/drivers/hwmon/lm90.ko

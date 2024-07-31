@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/imx/dcss/imx-dcss-crtc.o := rm -f drivers/gpu/drm/imx/dcss/imx-dcss-crtc.o; aarch64-linux-gnu-ar rcSTPD drivers/gpu/drm/imx/dcss/imx-dcss-crtc.o drivers/gpu/drm/imx/dcss/dcss-crtc.o drivers/gpu/drm/imx/dcss/dcss-plane.o drivers/gpu/drm/imx/dcss/dcss-kms.o

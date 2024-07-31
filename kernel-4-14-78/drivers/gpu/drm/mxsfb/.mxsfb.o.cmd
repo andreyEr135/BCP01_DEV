@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/mxsfb/mxsfb.o := rm -f drivers/gpu/drm/mxsfb/mxsfb.o; aarch64-linux-gnu-ar rcSTPD drivers/gpu/drm/mxsfb/mxsfb.o drivers/gpu/drm/mxsfb/mxsfb_drv.o drivers/gpu/drm/mxsfb/mxsfb_crtc.o drivers/gpu/drm/mxsfb/mxsfb_out.o

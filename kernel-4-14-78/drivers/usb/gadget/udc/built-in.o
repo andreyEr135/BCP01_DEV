@@ -1,0 +1,20 @@
+!<thin>
+//                                              126       `
+core.o/
+trace.o/
+snps_udc_core.o/
+snps_udc_plat.o/
+bdc/bdc_core.o/
+bdc/bdc_cmd.o/
+bdc/bdc_ep.o/
+bdc/bdc_udc.o/
+bdc/bdc_pci.o/
+/0              0           0     0     644     35160     `
+/8              0           0     0     644     944       `
+/17            /0           0     0     644     42616     `
+/34            /0           0     0     644     12704     `
+/51             0           0     0     644     15528     `
+/67             0           0     0     644     4984      `
+/82             0           0     0     644     17576     `
+/96             0           0     0     644     9768      `
+/111            0           0     0     644     5016      `

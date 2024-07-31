@@ -1,0 +1,7 @@
+kernel/drivers/gpu/drm/bridge/ti-sn65dsi86.ko
+kernel/drivers/gpu/drm/bridge/it6263.ko
+kernel/drivers/gpu/drm/bridge/sec-dsim.ko
+kernel/drivers/gpu/drm/bridge/nxp-seiko-43wvfig.ko
+kernel/drivers/gpu/drm/bridge/adv7511/adv7511.ko
+kernel/drivers/gpu/drm/bridge/sn65dsi84/sn65dsi84.ko
+kernel/drivers/gpu/drm/bridge/synopsys/dw-hdmi.ko

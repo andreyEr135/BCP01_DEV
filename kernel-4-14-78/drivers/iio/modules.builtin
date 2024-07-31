@@ -1,0 +1,2 @@
+kernel/drivers/iio/industrialio.ko
+kernel/drivers/iio/adc/imx8qxp_adc.ko

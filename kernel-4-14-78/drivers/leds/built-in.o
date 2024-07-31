@@ -1,0 +1,21 @@
+!<thin>
+//                                              164       `
+led-core.o/
+led-class.o/
+led-triggers.o/
+leds-gpio.o/
+leds-pwm.o/
+leds-syscon.o/
+trigger/ledtrig-heartbeat.o/
+trigger/ledtrig-cpu.o/
+trigger/ledtrig-default-on.o/
+
+/0              0           0     0     644     10128     `
+/12             0           0     0     644     12592     `
+/25             0           0     0     644     15360     `
+/41             0           0     0     644     7392      `
+/54             0           0     0     644     6160      `
+/66             0           0     0     644     5080      `
+/81             0           0     0     644     6272      `
+/110            0           0     0     644     5816      `
+/133            0           0     0     644     2856      `

@@ -1,0 +1,2 @@
+seco-imx8mq-c25-q7-spi-overlay.o: \
+ arch/arm64/boot/dts/seco/overlays/seco-imx8mq-c25-q7-spi-overlay.dts

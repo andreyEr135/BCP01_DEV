@@ -1,0 +1,4 @@
+ti.c:117:5:phy_read_mmd_indirect	48	static
+ti.c:152:6:phy_write_mmd_indirect	64	static
+ti.c:213:12:dp83867_config	64	static
+ti.c:328:5:phy_ti_init	16	static

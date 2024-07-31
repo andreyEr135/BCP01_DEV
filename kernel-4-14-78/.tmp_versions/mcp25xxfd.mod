@@ -1,0 +1,3 @@
+drivers/net/can/spi/mcp25xxfd/mcp25xxfd.ko
+drivers/net/can/spi/mcp25xxfd/mcp25xxfd_base.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_can.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_can_debugfs.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_can_fifo.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_can_int.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_can_rx.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_can_tx.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_clock.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_cmd.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_crc.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_debugfs.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_ecc.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_gpio.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd_int.o
+

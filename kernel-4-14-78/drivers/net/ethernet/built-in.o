@@ -1,0 +1,28 @@
+!<thin>
+//                                              298       `
+freescale/fec_main.o/
+freescale/fec_fixup.o/
+freescale/fec_ptp.o/
+intel/igb/igb_main.o/
+intel/igb/igb_ethtool.o/
+intel/igb/e1000_82575.o/
+intel/igb/e1000_mac.o/
+intel/igb/e1000_nvm.o/
+intel/igb/e1000_phy.o/
+intel/igb/e1000_mbx.o/
+intel/igb/e1000_i210.o/
+intel/igb/igb_ptp.o/
+intel/igb/igb_hwmon.o/
+/0              0           0     0     644     63360     `
+/22             0           0     0     644     6264      `
+/45             0           0     0     644     8248      `
+/66             0           0     0     644     100992    `
+/88             0           0     0     644     41656     `
+/113            0           0     0     644     27864     `
+/138            0           0     0     644     9800      `
+/161            0           0     0     644     6368      `
+/184            0           0     0     644     14600     `
+/207            0           0     0     644     4152      `
+/230            0           0     0     644     7784      `
+/254            0           0     0     644     15816     `
+/275            0           0     0     644     3680      `

@@ -1,0 +1,1 @@
+cmd_drivers/net/xen-netback/xen-netback.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/xen-netback/xen-netback.ko drivers/net/xen-netback/xen-netback.o drivers/net/xen-netback/xen-netback.mod.o ;  true

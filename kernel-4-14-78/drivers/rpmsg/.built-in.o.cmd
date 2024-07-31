@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg/built-in.o :=  rm -f drivers/rpmsg/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/rpmsg/built-in.o drivers/rpmsg/rpmsg_core.o drivers/rpmsg/virtio_rpmsg_bus.o drivers/rpmsg/imx_rpmsg.o 

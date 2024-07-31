@@ -1,0 +1,1 @@
+cmd_drivers/thermal/built-in.o :=  rm -f drivers/thermal/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/thermal/built-in.o drivers/thermal/thermal_sys.o drivers/thermal/broadcom/built-in.o drivers/thermal/samsung/built-in.o drivers/thermal/qoriq_thermal.o drivers/thermal/imx8mm_thermal.o drivers/thermal/imx_sc_thermal.o drivers/thermal/device_cooling.o 

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/i2c/sil164.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/i2c/sil164.ko drivers/gpu/drm/i2c/sil164.o drivers/gpu/drm/i2c/sil164.mod.o ;  true

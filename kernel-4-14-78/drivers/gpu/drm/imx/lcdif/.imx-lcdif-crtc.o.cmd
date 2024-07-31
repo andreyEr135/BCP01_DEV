@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/imx/lcdif/imx-lcdif-crtc.o := rm -f drivers/gpu/drm/imx/lcdif/imx-lcdif-crtc.o; aarch64-linux-gnu-ar rcSTPD drivers/gpu/drm/imx/lcdif/imx-lcdif-crtc.o drivers/gpu/drm/imx/lcdif/lcdif-crtc.o drivers/gpu/drm/imx/lcdif/lcdif-plane.o drivers/gpu/drm/imx/lcdif/lcdif-kms.o

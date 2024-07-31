@@ -1,0 +1,33 @@
+!<thin>
+//                                              222       `
+devres.o/
+gpiolib.o/
+gpiolib-legacy.o/
+gpiolib-devprop.o/
+gpiolib-of.o/
+gpiolib-sysfs.o/
+gpiolib-acpi.o/
+gpio-mmio.o/
+gpio-dwapb.o/
+gpio-max732x.o/
+gpio-max77620.o/
+gpio-mxc.o/
+gpio-pca953x.o/
+gpio-pl061.o/
+gpio-xgene.o/
+
+/0              0           0     0     644     10888     `
+/10             0           0     0     644     80944     `
+/21             0           0     0     644     4368      `
+/39             0           0     0     644     1968      `
+/58             0           0     0     644     10080     `
+/72            /0           0     0     644     17176     `
+/89             0           0     0     644     22488     `
+/105            0           0     0     644     13248     `
+/118            0           0     0     644     16008     `
+/132            0           0     0     644     10040     `
+/148           /0           0     0     644     7296      `
+/165            0           0     0     644     20912     `
+/177            0           0     0     644     20776     `
+/193            0           0     0     644     10448     `
+/207            0           0     0     644     6888      `

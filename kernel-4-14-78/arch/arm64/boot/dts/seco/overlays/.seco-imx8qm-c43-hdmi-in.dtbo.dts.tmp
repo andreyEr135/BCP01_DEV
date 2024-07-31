@@ -1,0 +1,69 @@
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c43-hdmi-in-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c43-hdmi-in-overlay.dts"
+# 17 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c43-hdmi-in-overlay.dts"
+/dts-v1/;
+/plugin/;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/imx8qm-clock.h" 1
+# 21 "arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c43-hdmi-in-overlay.dts" 2
+
+/ {
+        compatible = "fsl,imx8qm-mek","fsl,seco-imx8qm-c43", "fsl,imx8qm";
+
+ fragment@0 {
+                target = <&sound_hdmirx>;
+                __overlay__ {
+   compatible = "fsl,imx-audio-cdnhdmi";
+   model = "imx-audio-hdmi-rx";
+   audio-cpu = <&sai_hdmi_rx>;
+   protocol = <1>;
+   hdmi-in;
+                };
+        };
+
+        fragment@1 {
+                target = <&isi_2>;
+                __overlay__ {
+   interface = <4 0 2>;
+
+
+
+          status = "okay";
+                };
+        };
+
+        fragment@2 {
+                target = <&isi_3>;
+                __overlay__ {
+
+   interface = <4 0 2>;
+   status = "okay";
+                };
+        };
+
+
+        fragment@3 {
+                target = <&hdmi_rx>;
+                __overlay__ {
+   fsl,cec;
+   assigned-clocks = <&clk 785>,
+        <&clk 784>,
+        <&clk 418>;
+   assigned-clock-parents = <&clk 787>,
+         <&clk 412>;
+   assigned-clock-rates = <0>, <0>, <400000000>;
+   status = "okay";
+                };
+        };
+
+        fragment@4 {
+                target = <&sai_hdmi_rx>;
+                __overlay__ {
+   fsl,sai-asynchronous;
+   status = "okay";
+                };
+        };
+
+};

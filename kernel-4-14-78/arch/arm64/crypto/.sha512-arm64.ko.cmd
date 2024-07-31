@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/sha512-arm64.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o arch/arm64/crypto/sha512-arm64.ko arch/arm64/crypto/sha512-arm64.o arch/arm64/crypto/sha512-arm64.mod.o ;  true

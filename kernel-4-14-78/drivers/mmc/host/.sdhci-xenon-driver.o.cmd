@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/sdhci-xenon-driver.o := rm -f drivers/mmc/host/sdhci-xenon-driver.o; aarch64-linux-gnu-ar rcSTPD drivers/mmc/host/sdhci-xenon-driver.o drivers/mmc/host/sdhci-xenon.o drivers/mmc/host/sdhci-xenon-phy.o

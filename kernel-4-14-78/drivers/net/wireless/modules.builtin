@@ -1,0 +1,2 @@
+kernel/drivers/net/wireless/intersil/hostap/hostap.ko
+kernel/drivers/net/wireless/ti/wlcore/wlcore.ko

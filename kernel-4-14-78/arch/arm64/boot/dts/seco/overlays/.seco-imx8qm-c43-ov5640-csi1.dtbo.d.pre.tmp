@@ -1,0 +1,5 @@
+seco-imx8qm-c43-ov5640-csi1-overlay.o: \
+ arch/arm64/boot/dts/seco/overlays/seco-imx8qm-c43-ov5640-csi1-overlay.dts \
+ scripts/dtc/include-prefixes/dt-bindings/clock/imx8qm-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/pads-imx8qm.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

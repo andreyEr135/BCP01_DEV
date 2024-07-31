@@ -1,0 +1,1 @@
+cmd_drivers/crypto/virtio/virtio_crypto.ko := aarch64-poky-linux-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/crypto/virtio/virtio_crypto.ko drivers/crypto/virtio/virtio_crypto.o drivers/crypto/virtio/virtio_crypto.mod.o ;  true

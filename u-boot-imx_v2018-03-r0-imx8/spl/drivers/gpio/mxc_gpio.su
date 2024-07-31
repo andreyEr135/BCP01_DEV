@@ -1,0 +1,6 @@
+mxc_gpio.c:133:5:gpio_set_value	0	static
+mxc_gpio.c:163:5:gpio_get_value	0	static
+mxc_gpio.c:188:5:gpio_request	0	static
+mxc_gpio.c:200:5:gpio_free	0	static
+mxc_gpio.c:205:5:gpio_direction_input	0	static
+mxc_gpio.c:210:5:gpio_direction_output	16	static

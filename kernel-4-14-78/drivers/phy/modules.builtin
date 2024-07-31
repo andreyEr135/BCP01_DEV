@@ -1,0 +1,2 @@
+kernel/drivers/phy/phy-xgene.ko
+kernel/drivers/phy/samsung/phy-exynos-usb2.ko

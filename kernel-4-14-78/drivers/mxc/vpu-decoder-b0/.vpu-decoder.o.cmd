@@ -1,0 +1,1 @@
+cmd_drivers/mxc/vpu-decoder-b0/vpu-decoder.o := rm -f drivers/mxc/vpu-decoder-b0/vpu-decoder.o; aarch64-poky-linux-ar rcSTPD drivers/mxc/vpu-decoder-b0/vpu-decoder.o drivers/mxc/vpu-decoder-b0/vpu_b0.o drivers/mxc/vpu-decoder-b0/vpu_rpc.o drivers/mxc/vpu-decoder-b0/insert_startcode.o drivers/mxc/vpu-decoder-b0/vpu_debug_log.o
